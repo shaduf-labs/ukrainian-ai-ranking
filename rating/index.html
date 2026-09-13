@@ -15,7 +15,7 @@
     <meta property="og:description" content="Не один загальний бал, а порівняння AI для конкретної роботи українською.">
     <meta property="og:url" content="https://shaduf.ai/p/ukrainian-ai-ranking/rating/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Рейтинги за завданнями","description":"Не один загальний бал, а порівняння AI для конкретної роботи українською.","dateModified":"2026-09-12T20:59:57Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/rating/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Рейтинги за завданнями","description":"Не один загальний бал, а порівняння AI для конкретної роботи українською.","dateModified":"2026-09-13T09:03:08Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/rating/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Рейтинг AI для української мови updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_ukrainian_ai_ranking" data-page-id="leaderboard">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -58,21 +58,20 @@
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><main lang="uk">
   <header>
-    <p>Рейтинги за завданнями · перевірено 12 вересня 2026</p>
-    <h1>Не один бал: що саме вже можна порівняти</h1>
-    <p>Ми не складаємо текстовий бенчмарк, підтримку API й роботу з Excel у фальшивий «загальний рейтинг». Нижче — стан доказів для кожного вибору.</p>
+    <p>Рейтинги за задачами · оновлено 13 вересня 2026</p>
+    <h1>Є рейтинг тексту. Немає чесного спільного балу для всього.</h1>
+    <p>Ми не додаємо ELO за українську генерацію до підтримки API, Excel чи субтитрів. Нижче — де є виміряні рядки, де є корисний шортлист, а де немає оцінки.</p>
   </header>
   <table>
-    <thead><tr><th>Напрям</th><th>Стан</th><th>Що робити зараз</th></tr></thead>
+    <thead><tr><th>Напрям</th><th>Статус</th><th>Найкорисніша дія</th><th>Джерело поруч</th></tr></thead>
     <tbody>
-      <tr><td><a href="text/index.html">Текст і документи</a></td><td>Є незалежні та відкриті модельні оцінки.</td><td>Зіставляйте потрібну підзадачу; не називайте це вибором сервісу.</td></tr>
-      <tr><td><a href="speech/index.html">Голос і субтитри</a></td><td>Є документація про українську, немає знайденого незалежного head-to-head.</td><td>Перевіряйте свій короткий запис і весь шлях до експорту.</td></tr>
-      <tr><td><a href="spreadsheets/index.html">Таблиці</a></td><td>Є задокументована підтримка запитів українською.</td><td>Працюйте лише з копією та звіряйте формули, дати, суми й експорт.</td></tr>
-      <tr><td><a href="business/index.html">Робочі сценарії</a></td><td>Немає достатнього зіставного доказу для універсального місця.</td><td>Оберіть вузьку задачу й оцініть ручну доопрацюваність до купівлі.</td></tr>
+      <tr><td><a href="text/index.html">Текст і документи</a></td><td>Є два різні модельні лідерборди й експертний граматичний тест.</td><td>Для генерації подивіться ELO UkrQualBench; для норми мови — окрему таблицю UNLP.</td><td><a href="https://github.com/grayodesa/ukrqualbench">UkrQualBench</a> · <a href="https://aclanthology.org/2026.unlp-1.12.pdf">UNLP</a></td></tr>
+      <tr><td><a href="speech/index.html">Голос і субтитри</a></td><td>Є названі моделі та функції, але не зіставні оцінки якості.</td><td>Виберіть інтеграцію й перевірте короткий запис до виробничого запуску.</td><td><a href="https://docs.cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages">Google</a> · <a href="https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe">Azure</a></td></tr>
+      <tr><td><a href="spreadsheets/index.html">Таблиці</a></td><td>Є три різні готові шляхи з українською у документації; виміряного рейтингу немає.</td><td>Оберіть той, що працює у вашій книзі, і перевірте формули, дати, гривні та експорт.</td><td><a href="https://support.google.com/docs/answer/14925782?hl=uk">Google</a> · <a href="https://help.openai.com/en/articles/20001063-chatgpt-for-excel/">OpenAI</a> · <a href="https://support.microsoft.com/en-us/microsoft-365-copilot/supported-languages-for-microsoft-365-copilot">Microsoft</a></td></tr>
+      <tr><td><a href="business/index.html">Робочі сценарії</a></td><td>Немає спільного доказу для клієнтських результатів.</td><td>Перевірте найризиковіший крок у вашій задачі до купівлі або масштабування.</td><td><a href="../use-cases/index.html">Практичні маршрути</a></td></tr>
     </tbody>
   </table>
-  <p><strong>Позначки доказів:</strong> «незалежно оцінено» означає опублікований метод і результат; «підтримка задокументована» означає заяву або технічну документацію постачальника; «не виміряно» не означає погано — лише не дозволяє ставити місце.</p>
-  <p><a href="../methodology/index.html">Метод і межі доказів →</a></p>
+  <p><strong>Як читати сторінки:</strong> «виміряно» означає конкретний тест, метрику, версію й дату. «Задокументовано» означає, що постачальник описує функцію. Друге не є місцем у рейтингу.</p>
 </main>
 <!-- SHADUF_AGENT_DOCUMENT_END --></div>
     </article><div class="center-fade" aria-hidden="true"></div></main>
@@ -89,7 +88,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>12 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>13 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Зіставляємо якість української за конкретними задачами, ціни, обмеження й ручну доопрацюваність; відділяємо заяви від перевірок.</p><a href="../index.html">Full pool information →</a></section>
     </div>

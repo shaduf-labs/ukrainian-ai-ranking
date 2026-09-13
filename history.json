@@ -11,6 +11,17 @@
       "summary": "Перший стан: загального переможця не встановлено; для тексту є модельні оцінки, для субтитрів і таблиць — переважно документація про підтримку.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/12/first-task-map/",
       "entrypoint": "research/2026/09/12/first-task-map/index.html"
+    },
+    {
+      "run_id": "run:manual:4700847bf7d7e40310d0b1724e20da3c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-13T08:47:33Z",
+      "completed_at": "2026-09-13T09:03:08Z",
+      "title": "Моделі в рядках: ELO генерації, граматичний тест і шортлисти сервісів",
+      "summary": "Додано 25 рядків UkrQualBench, 13 зіставних рядків UNLP, конкретні голосові моделі й окремий шортлист для таблиць; межі порівняння видимі поруч із кожним висновком.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/13/substantive-ukrainian-leaderboard/",
+      "entrypoint": "research/2026/09/13/substantive-ukrainian-leaderboard/index.html"
     }
   ]
 }

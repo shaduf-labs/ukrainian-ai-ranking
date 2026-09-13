@@ -15,7 +15,7 @@
     <meta property="og:description" content="Листи, пропозиції, описи товарів, контент і внутрішні процеси.">
     <meta property="og:url" content="https://shaduf.ai/p/ukrainian-ai-ranking/rating/business/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Робочі сценарії","description":"Листи, пропозиції, описи товарів, контент і внутрішні процеси.","dateModified":"2026-09-12T20:59:57Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/rating/business/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Робочі сценарії","description":"Листи, пропозиції, описи товарів, контент і внутрішні процеси.","dateModified":"2026-09-13T09:03:08Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/rating/business/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Рейтинг AI для української мови updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_ukrainian_ai_ranking" data-page-id="business">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -58,17 +58,18 @@
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><main lang="uk">
   <header>
-    <p>Робочі сценарії · перевірено 12 вересня 2026</p>
-    <h1>Для клієнтської роботи не існує одного «найкращого ШІ»</h1>
-    <p>Лист клієнту, опис товару, підсумок зустрічі й робоча таблиця мають різні точки відмови. У наявних джерелах немає незалежного, зіставного тесту готових сервісів для всіх цих сценаріїв українською.</p>
+    <p>Робочі сценарії · оновлено 13 вересня 2026</p>
+    <h1>Виберіть модель для тексту, а сервіс — для процесу</h1>
+    <p>Для українського письма є модельні цифри. Для листа клієнту, документа, презентації чи таблиці вони не дають автоматичного переможця: вирішальними можуть бути доступ до файлів, ціна, спільна робота, експорт і людина, яка підписує результат.</p>
   </header>
   <table>
-    <thead><tr><th>Сценарій</th><th>Не купуйте за</th><th>Проведіть власну перевірку</th></tr></thead>
+    <thead><tr><th>Сценарій</th><th>Корисний старт</th><th>Чому саме</th><th>Що перевірити до купівлі</th></tr></thead>
     <tbody>
-      <tr><td>Лист або комерційна пропозиція</td><td>загальним балом моделі</td><td>тон, факти, імена, суми, стиль вашого бренду</td></tr>
-      <tr><td>Опис товару й контент</td><td>обіцянкою «пише українською»</td><td>термінологію, повтори, юридично чутливі твердження</td></tr>
-      <tr><td>Підсумок документа чи зустрічі</td><td>демонстрацією на чужому прикладі</td><td>пропущені рішення, дати, відповідальних і правила доступу до даних</td></tr>
-      <tr><td>Таблиця або звіт</td><td>правильною відповіддю в чаті</td><td>формули, формат, вихідний файл і експорт на копії</td></tr>
+      <tr><td>Чернетка листа, опис товару, короткий текст</td><td><code>claude-opus-5</code> як перший кандидат</td><td>1785,1 ELO у парних порівняннях генерації UkrQualBench, пакет позначено «серпень 2026». <a href="https://github.com/grayodesa/ukrqualbench">Джерело</a></td><td>Чи це точна модель у вашому сервісі; факти, суми, тон, заборонені обіцянки й дані клієнта.</td></tr>
+      <tr><td>Вичитка української норми</td><td>Не обирайте лише за ELO; використайте окрему перевірку</td><td>У 347-завданнєвому UNLP максимум — 59,6%; жоден рядок не виправдовує пропуск людської вичитки. <a href="https://aclanthology.org/2026.unlp-1.12.pdf">Джерело</a></td><td>Відмінки, терміни, кальки, власні назви й цільовий стиль.</td></tr>
+      <tr><td>Довгий Word-документ</td><td>Microsoft 365 Copilot у Word, якщо це вже ваше середовище</td><td>Word-довідка описує створення, резюме, запитання та доопрацювання документа; українська є в списку мов Copilot. <a href="https://support.microsoft.com/en-us/word/frequently-asked-questions-about-copilot-in-word">Word</a> · <a href="https://support.microsoft.com/en-us/microsoft-365-copilot/supported-languages-for-microsoft-365-copilot">мови</a></td><td>Слова, які сервіс обробить за раз, правила доступу до документа, факти й фінальне форматування.</td></tr>
+      <tr><td>Таблиця, звіт, план</td><td>Gemini у Sheets, ChatGPT для Excel/Sheets або Copilot у Excel — за вашим середовищем</td><td>Кожен шлях має конкретно задокументовані функції та/або українську; прямого порівняння цілісності файлу немає. <a href="../spreadsheets/index.html">Порівняння умов</a></td><td>Формули, посилання, дати, гривні, макроси, експорт і відкат на копії.</td></tr>
+      <tr><td>Субтитри або розшифрування</td><td><code>chirp_2</code> або <code>MAI-Transcribe-2</code> для API-процесу</td><td>Обидва мають документовану українську; у <code>chirp_2</code> є confidence/adaptation, Azure описує Fast Transcription REST. <a href="../speech/index.html">Точні функції</a></td><td>Реальний фрагмент із власними назвами, шумом, кількома спікерами, SRT і таймкодами.</td></tr>
     </tbody>
   </table>
   <p><strong>Практичне правило:</strong> платіть за повторювану задачу лише після того, як сервіс пройшов ваш найризиковіший крок і ви знаєте, хто виконує фінальну перевірку.</p>
@@ -88,7 +89,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>12 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>13 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Зіставляємо якість української за конкретними задачами, ціни, обмеження й ручну доопрацюваність; відділяємо заяви від перевірок.</p><a href="../../index.html">Full pool information →</a></section>
     </div>
