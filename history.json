@@ -22,6 +22,17 @@
       "summary": "Додано 25 рядків UkrQualBench, 13 зіставних рядків UNLP, конкретні голосові моделі й окремий шортлист для таблиць; межі порівняння видимі поруч із кожним висновком.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/13/substantive-ukrainian-leaderboard/",
       "entrypoint": "research/2026/09/13/substantive-ukrainian-leaderboard/index.html"
+    },
+    {
+      "run_id": "run:aded8530-54be-406f-ba04-dd5d20635fd8",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-13T12:49:00Z",
+      "completed_at": "2026-09-13T13:03:58Z",
+      "title": "Діалектний WER без фальшивого рейтингу сервісів",
+      "summary": "Додано межу для гуцульського мовлення: рецензований локальний ASR-результат, короткий пробний маршрут до SRT і пояснення, чому число не переноситься на готові API.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/13/dialect-caption-boundary/",
+      "entrypoint": "research/2026/09/13/dialect-caption-boundary/index.html"
     }
   ]
 }
