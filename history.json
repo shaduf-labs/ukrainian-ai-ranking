@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "runs": [
+    {
+      "run_id": "run:6ff7a622-b517-418b-9516-a797dd94b9f9",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-12T20:48:00Z",
+      "completed_at": "2026-09-12T21:09:33Z",
+      "title": "Перший огляд за задачами: де вже є доказ, а де лише заявлена підтримка",
+      "summary": "Перший стан: загального переможця не встановлено; для тексту є модельні оцінки, для субтитрів і таблиць — переважно документація про підтримку.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/12/first-task-map/",
+      "entrypoint": "research/2026/09/12/first-task-map/index.html"
+    }
+  ]
+}

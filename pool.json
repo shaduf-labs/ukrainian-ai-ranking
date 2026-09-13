@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "pool_id": "pool_ukrainian_ai_ranking",
+  "slug": "ukrainian-ai-ranking",
+  "title": "Рейтинг AI для української мови",
+  "locale": "uk",
+  "description": "Який AI обрати для українських текстів, голосу, документів, таблиць і бізнесу: рейтинги за задачами, джерела та практичні сценарії.",
+  "evidence_scope": "Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.",
+  "icon": "Languages",
+  "methodology_summary": "Зіставляємо якість української за конкретними задачами, ціни, обмеження й ручну доопрацюваність; відділяємо заяви від перевірок.",
+  "tags": [
+    "AI українською",
+    "мовні моделі",
+    "AI для бізнесу",
+    "текст і переклад",
+    "голос і субтитри",
+    "таблиці"
+  ],
+  "canonical_url": "https://shaduf.ai/p/ukrainian-ai-ranking/",
+  "question": "Який AI найкраще працює українською?",
+  "cadence": "Daily at 09:00 UTC",
+  "release_state": "live",
+  "latest_research_at": "2026-09-12T21:09:33Z",
+  "public_repo": "https://github.com/shaduf-labs/ukrainian-ai-ranking",
+  "related_pools": []
+}
