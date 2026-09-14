@@ -7,7 +7,7 @@
       "source_url": "https://github.com/grayodesa/ukrqualbench",
       "title": "UkrQualBench",
       "claim": "The repository labels its leaderboard August 2026 and publishes ELO plus detailed Ukrainian language-quality metrics for named model identifiers.",
-      "accessed_at": "2026-09-13T09:03:08Z",
+      "accessed_at": "2026-09-14T09:08:01Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     },
@@ -27,7 +27,7 @@
       "source_url": "https://huggingface.co/datasets/lang-uk/ukrainian-llm-leaderboard-results/raw/main/aggregated/results_2026-05-04T11-15-00.000000.json",
       "title": "Ukrainian LLM Leaderboard aggregate result",
       "claim": "One inspected Gemma 4 result publishes task-specific FLORES, LongFLORES, and SQuAD metrics and run metadata.",
-      "accessed_at": "2026-09-13T09:03:08Z",
+      "accessed_at": "2026-09-14T09:08:01Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     },
@@ -118,6 +118,16 @@
       "title": "Який безкоштовний ШІ найкращий для аналітика у 2026",
       "claim": "One Ukrainian practitioner frames a service choice around concrete task inputs, file limits, context, output structure, and availability; it is context, not a product ranking.",
       "accessed_at": "2026-09-13T13:03:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "dou-pm-context-handoff-2026",
+      "source_type": "practitioner community report",
+      "source_url": "https://dou.ua/forums/topic/60733/",
+      "title": "AI-агенти для PMs: чому будувати робоче середовище важливіше за найновіші моделі",
+      "claim": "One technical product manager describes repeated manual transfer of transcripts, notes, templates, and context as a multi-step work problem; this is context for a buyer trial, not a service ranking.",
+      "accessed_at": "2026-09-14T09:08:01Z",
       "relation": "context",
       "publication_basis": "linked-summary"
     }

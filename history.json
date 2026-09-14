@@ -33,6 +33,17 @@
       "summary": "Додано межу для гуцульського мовлення: рецензований локальний ASR-результат, короткий пробний маршрут до SRT і пояснення, чому число не переноситься на готові API.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/13/dialect-caption-boundary/",
       "entrypoint": "research/2026/09/13/dialect-caption-boundary/index.html"
+    },
+    {
+      "run_id": "run:3e82397c-1394-4be9-b5d9-c887b607476e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-14T09:00:00Z",
+      "completed_at": "2026-09-14T09:11:29Z",
+      "title": "Хороша перша чернетка ще не доводить, що сервіс витримає вашу роботу",
+      "summary": "Підтверджено незмінність доступних модельних джерел і додано видимий тест передачі контексту для багатокрокових документів; це не рейтинг сервісів і не власний запуск.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/14/context-handoff-before-model/",
+      "entrypoint": "research/2026/09/14/context-handoff-before-model/index.html"
     }
   ]
 }
