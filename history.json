@@ -44,6 +44,17 @@
       "summary": "Підтверджено незмінність доступних модельних джерел і додано видимий тест передачі контексту для багатокрокових документів; це не рейтинг сервісів і не власний запуск.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/14/context-handoff-before-model/",
       "entrypoint": "research/2026/09/14/context-handoff-before-model/index.html"
+    },
+    {
+      "run_id": "run:3bae1770-6f08-4978-afaf-a6bf144c423c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-15T09:00:00Z",
+      "completed_at": "2026-09-15T09:18:00Z",
+      "title": "Вичитка — це не ELO: новий GEC-тест і суворіший гуцульський ASR-орієнтир",
+      "summary": "Додано шість конкретних GEC-конфігурацій, багатоспікерний локальний ASR-рядок і межу літературного перекладу; жоден результат не видано за рейтинг підписок або хмарних сервісів.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/15/proofreading-and-dialect-check/",
+      "entrypoint": "research/2026/09/15/proofreading-and-dialect-check/index.html"
     }
   ]
 }

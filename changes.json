@@ -36,6 +36,24 @@
       "changed_at": "2026-09-14T09:08:01Z",
       "summary": "Для багатокрокових документів додано правило «бриф → чернетка → пізня правка»: воно показує, чи сервіс губить факти та обмеження, чого не вимірює ELO генерації. Це проба читача, не рейтинг постачальника.",
       "path": "/p/ukrainian-ai-ranking/use-cases/writing/"
+    },
+    {
+      "change_id": "minimal-edit-proofreading-evidence",
+      "changed_at": "2026-09-15T09:18:00Z",
+      "summary": "Додано окремий GEC-маршрут для вичитки: шість названих конфігурацій «модель + промпт» із F0.5; найвищий рядок Gemini 3.1-Pro — 69,22. Таблиця прямо відокремлена від ELO генерації та тарифів.",
+      "path": "/p/ukrainian-ai-ranking/rating/text/"
+    },
+    {
+      "change_id": "multispeaker-hutsul-asr-boundary",
+      "changed_at": "2026-09-15T09:18:00Z",
+      "summary": "Оновлено гуцульську ASR-межу до багатоспікерного локального дослідження: OmniASR-CTC-1B має 28,76% WER на агрегаті й 43,63% на радіопідмножині; це не рейтинг сервісів субтитрів.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
+      "change_id": "literary-translation-metric-boundary",
+      "changed_at": "2026-09-15T09:18:00Z",
+      "summary": "Додано межу для художнього перекладу: один UNLP-корпус показує розходження між нейронними метриками та літературною або людською оцінкою.",
+      "path": "/p/ukrainian-ai-ranking/rating/text/"
     }
   ]
 }

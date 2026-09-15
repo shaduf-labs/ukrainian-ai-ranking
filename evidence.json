@@ -7,7 +7,7 @@
       "source_url": "https://github.com/grayodesa/ukrqualbench",
       "title": "UkrQualBench",
       "claim": "The repository labels its leaderboard August 2026 and publishes ELO plus detailed Ukrainian language-quality metrics for named model identifiers.",
-      "accessed_at": "2026-09-14T09:08:01Z",
+      "accessed_at": "2026-09-15T09:18:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     },
@@ -128,6 +128,46 @@
       "title": "AI-агенти для PMs: чому будувати робоче середовище важливіше за найновіші моделі",
       "claim": "One technical product manager describes repeated manual transfer of transcripts, notes, templates, and context as a multi-step work problem; this is context for a buyer trial, not a service ranking.",
       "accessed_at": "2026-09-14T09:08:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-minimal-edit-gec-2026",
+      "source_type": "conference paper",
+      "source_url": "https://aclanthology.org/2026.unlp-1.13/",
+      "title": "How Far Can Prompting Go for Minimal-Edit Ukrainian Grammatical Error Correction?",
+      "claim": "The paper reports model-and-prompt GEC configurations on UNLP-2023 GEC-only; its top tested API configuration is Gemini 3.1-Pro with F0.5 69.22.",
+      "accessed_at": "2026-09-15T09:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-multispeaker-hutsul-asr-2026",
+      "source_type": "conference paper",
+      "source_url": "https://aclanthology.org/2026.unlp-1.16/",
+      "title": "Scaling ASR for Hutsul Dialect: Multi-Speaker Data Collection, Enhanced Transcription and Cross-Speaker Evaluation",
+      "claim": "The paper reports exact WER/CER rows for local fine-tuned models on a 40-speaker Hutsul corpus and shows strong cross-speaker variation.",
+      "accessed_at": "2026-09-15T09:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-literary-translation-boundary-2026",
+      "source_type": "conference paper",
+      "source_url": "https://aclanthology.org/2026.unlp-1.8/",
+      "title": "Semantic Fidelity Versus Literary Quality: A Construct Validity Study of Neural Machine Translation Metrics",
+      "claim": "In one English–Ukrainian literary corpus, neural metrics and literary or human evaluation rank AI systems differently.",
+      "accessed_at": "2026-09-15T09:18:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "dou-subscription-limits-2026",
+      "source_type": "community discussion",
+      "source_url": "https://dou.ua/forums/topic/59129/",
+      "title": "Які у вас кости на ШІ?",
+      "claim": "A DOU discussion provides a bounded community signal about personal versus employer-provided subscriptions and limits; it is not a market estimate or service ranking.",
+      "accessed_at": "2026-09-15T09:18:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
     }

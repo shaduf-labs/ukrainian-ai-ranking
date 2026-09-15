@@ -15,7 +15,7 @@
     <meta property="og:description" content="Тексти, листи, переклад і перевірка української мови.">
     <meta property="og:url" content="https://shaduf.ai/p/ukrainian-ai-ranking/use-cases/writing/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Написати й відредагувати","description":"Тексти, листи, переклад і перевірка української мови.","dateModified":"2026-09-14T09:08:01Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/use-cases/writing/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Написати й відредагувати","description":"Тексти, листи, переклад і перевірка української мови.","dateModified":"2026-09-15T09:18:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/use-cases/writing/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Рейтинг AI для української мови updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_ukrainian_ai_ranking" data-page-id="writing">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -57,14 +57,15 @@
     <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><main lang="uk">
-  <header><p>Практика: текст · оновлено 14 вересня 2026</p><h1>Чернетка українського листа: почніть із моделі, але завершіть редактором</h1><p>Для генерації відкритий UkrQualBench ставить <code>claude-opus-5</code> першим (1785,1 ELO, серпень 2026). Це кандидат для короткого списку, а не твердження про вашу теперішню підписку чи готовий лист.</p></header>
+  <header><p>Практика: текст · оновлено 15 вересня 2026</p><h1>Український лист: чернетка й вичитка — це різні вибори</h1><p>Для генерації відкритий UkrQualBench ставить <code>claude-opus-5</code> першим (1785,1 ELO, серпень 2026). Для minimal-edit вичитки окреме UNLP-дослідження дає найвищий API-результат конфігурації <code>Gemini 3.1-Pro</code> — F0.5 69,22. Жоден рядок не є твердженням про вашу теперішню підписку або готовий лист.</p></header>
   <ol>
     <li><strong>Зафіксуйте факти.</strong> Випишіть адресата, мету, суму, строк, назви й те, чого не можна вигадувати.</li>
     <li><strong>Візьміть модельний орієнтир.</strong> Порівняйте <a href="https://github.com/grayodesa/ukrqualbench"><code>claude-opus-5</code>, Gemini та інші точні ідентифікатори в таблиці</a>, але перевірте, що ваш сервіс справді показує потрібну модель.</li>
     <li><strong>Попросіть чернетку.</strong> Дайте задачу українською та вимогу: «Якщо даних бракує — познач пропуск, не вигадуй». Назвіть бажаний тон і заборонені формулювання.</li>
+    <li><strong>Вичитайте окремим кроком.</strong> Дайте готовий текст і попросіть: «Виправ лише граматику, правопис і пунктуацію. Не змінюй імена, терміни, числа, цитати, формат, стиль і коректні варіанти. Поверни лише текст». Це ваш пробний сценарій, не дослівний промпт дослідження.</li>
     <li><strong>Зробіть одну перевірку передачі контексту.</strong> Після чернетки змініть лише один факт або умову. Потім звірте, чи сервіс зберіг усі інші вимоги, назви й заборони з брифу. ELO цього не вимірює; один <a href="https://dou.ua/forums/topic/60733/">DOU-досвід</a> описує ручне перенесення контексту як проблему довгої роботи. Це ваш пробний сценарій, не рейтинг постачальника.</li>
+    <li><strong>Порівняйте версію до й після.</strong> Окремо звірте імена, цифри, терміни, лапки, тире й абзаци: GEC-дослідження показує, що навіть сильна конфігурація може зайво нормалізувати діалог, синоніми або допустимі мовні варіанти. <a href="https://aclanthology.org/2026.unlp-1.13.pdf">Джерело</a></li>
     <li><strong>Перевірте кожен згенерований блок.</strong> Український основний текст не гарантує українських підказок, полів або ідеальних відповідей у багатокроковому процесі; один практичний звіт описує саме такий збій. <a href="https://dou.ua/forums/topic/57888/">Джерело й межа</a></li>
-    <li><strong>Вичитайте норму й ризик.</strong> Звірте імена, числа, дати, посилання, відмінки, терміни й тон. UNLP 2026 показує, що навіть максимум тесту — 59,6% у конкретному налаштуванні. <a href="https://aclanthology.org/2026.unlp-1.12.pdf">Таблиця 2</a></li>
     <li><strong>Надішліть лише після людського рішення.</strong> Модель не відповідає за вашу обіцянку клієнту.</li>
   </ol>
 </main>
@@ -83,7 +84,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>14 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>15 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Зіставляємо якість української за конкретними задачами, ціни, обмеження й ручну доопрацюваність; відділяємо заяви від перевірок.</p><a href="../../index.html">Full pool information →</a></section>
     </div>
