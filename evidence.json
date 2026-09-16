@@ -170,6 +170,36 @@
       "accessed_at": "2026-09-15T09:18:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "orukeet-r3-paired-fleurs-ukrainian",
+      "source_type": "maintainer-published model card and paired benchmark record",
+      "source_url": "https://huggingface.co/oruk/orukeet/blob/main/docs/current-checkpoint-benchmarks.md?code=true",
+      "title": "Orukeet r3: paired recognition scores",
+      "claim": "The record identifies exact checkpoint hashes and reports fresh same-audio decoding on 750 FLEURS Ukrainian clips: Orukeet 5.39% WER / 1.60% CER, Parakeet 6.00% / 1.74%.",
+      "accessed_at": "2026-09-16T09:05:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "fast-ukrainian-asr-domain-split",
+      "source_type": "maintainer-published model card and benchmark table",
+      "source_url": "https://huggingface.co/asfberlin/fast-ukrainian-asr",
+      "title": "fast-ukrainian-asr",
+      "claim": "The model card publishes source-specific shared-normalizer WER rows showing a different ordering for CV10 read/phone audio and the card’s spontaneous-speech sets.",
+      "accessed_at": "2026-09-16T09:05:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "dou-ai-use-at-work-survey-2026",
+      "source_type": "Ukrainian IT-worker survey report",
+      "source_url": "https://dou.ua/lenta/articles/it-companies-using-ai-2026/",
+      "title": "89% айтівців бачать користь від ШІ в роботі",
+      "claim": "DOU reports a December 2025 IT-worker survey with both employer-provided and self-funded paid-AI access; it supplies a bounded funding-path context, not a population estimate or service ranking.",
+      "accessed_at": "2026-09-16T09:05:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

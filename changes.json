@@ -54,6 +54,12 @@
       "changed_at": "2026-09-15T09:18:00Z",
       "summary": "Додано межу для художнього перекладу: один UNLP-корпус показує розходження між нейронними метриками та літературною або людською оцінкою.",
       "path": "/p/ukrainian-ai-ranking/rating/text/"
+    },
+    {
+      "change_id": "local-asr-checkpoint-evidence",
+      "changed_at": "2026-09-16T09:05:00Z",
+      "summary": "Для голосу додано два джерело-обмежені набори рядків відкритих чекпойнтів: Orukeet v0.1.0 r3 має 5,39% WER проти 6,00% у Parakeet на однаковому FLEURS Ukrainian аудіо; fast-ukrainian-asr показує, що читане й телефонне аудіо не дорівнюють спонтанному. Жоден рядок не видано за рейтинг сервісів.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
     }
   ]
 }

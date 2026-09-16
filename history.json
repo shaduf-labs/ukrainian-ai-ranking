@@ -55,6 +55,17 @@
       "summary": "Додано шість конкретних GEC-конфігурацій, багатоспікерний локальний ASR-рядок і межу літературного перекладу; жоден результат не видано за рейтинг підписок або хмарних сервісів.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/15/proofreading-and-dialect-check/",
       "entrypoint": "research/2026/09/15/proofreading-and-dialect-check/index.html"
+    },
+    {
+      "run_id": "run:0bf3fe51-8b78-46f3-9ca8-174d76f1ebaf",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-16T09:00:00Z",
+      "completed_at": "2026-09-16T09:11:49Z",
+      "title": "Локальний ASR: один прямий рядок для читаного аудіо, не для сервісів",
+      "summary": "Додано парне зіставлення Orukeet і Parakeet на однаковому FLEURS Ukrainian аудіо, а також доменну межу fast-ukrainian-asr проти Whisper. Сторінка пояснює, чому ці локальні чекпойнти не обирають API чи SRT.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/16/local-asr-checkpoints/",
+      "entrypoint": "research/2026/09/16/local-asr-checkpoints/index.html"
     }
   ]
 }

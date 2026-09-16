@@ -1,23 +1,23 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Для чернетки українського тексту є один модельний старт: claude-opus-5 має 1785,1 ELO в опублікованому UkrQualBench за серпень 2026. Для виправлення вже написаного тексту сильніший прямий сигнал інший: у GEC-дослідженні UNLP 2026 конфігурація Gemini 3.1-Pro з українським minimal-edits промптом має F0.5 69,22; це не доказ про нинішню підписку чи готовий документ. Для гуцульського мовлення новіший локальний OmniASR-CTC-1B результат на 40-спікерному корпусі має 28,76% WER і 11,49% CER, але радіопідмножина значно гірша; це не рейтинг Google, Azure або сервісів субтитрів. Для художнього перекладу метрики та людська оцінка в одному UNLP-дослідженні розійшлися, тому не обирайте за балом без редактора.",
+  "current_answer": "Для чернетки українського тексту є один модельний старт: claude-opus-5 має 1785,1 ELO в опублікованому UkrQualBench за серпень 2026. Для виправлення вже написаного тексту сильніший прямий сигнал інший: у GEC-дослідженні UNLP 2026 конфігурація Gemini 3.1-Pro з українським minimal-edits промптом має F0.5 69,22; це не доказ про нинішню підписку чи готовий документ. Для локального розпізнавання читаного українського мовлення є новий прямий рядок: Orukeet v0.1.0 r3 має 5,39% WER на 750 FLEURS Ukrainian кліпах проти 6,00% у Parakeet у записі автора; це не рейтинг API, субтитрів чи розмовного аудіо.",
   "catalogue_card": {
-    "question": "Як не сплутати ШІ для чернетки з ШІ для вичитки?",
-    "text": "ELO генерації не обирає інструмент для правок. У новому GEC-тесті інша пара «модель + промпт» має сильніший сигнал для вичитки, а діалектний ASR знову показує: ваш складний запис треба перевіряти окремо."
+    "question": "Коли локальна модель для українського аудіо має кращий доказ, ніж сервіс?",
+    "text": "Є одна чесно зіставна пара відкритих чекпойнтів на FLEURS Ukrainian: Orukeet нижче за Parakeet. Це допомагає лише технічній локальній задачі з подібним читаним аудіо; не обирає сервіс субтитрів."
   },
   "summary": [
-    "Додано окрему таблицю GEC: найкращий перевірений API-рядок — Gemini 3.1-Pro з конкретним українським minimal-edits промптом, F0.5 69,22.",
-    "Оновлено межу для гуцульського ASR: локальна OmniASR-CTC-1B виміряна на 40-спікерному корпусі, але результат суттєво погіршується на радіопідмножині.",
-    "Для художнього перекладу додано перевірену межу: нейронна метрика в одному корпусі не збіглася з літературною та людською оцінкою."
+    "Додано пряме парне зіставлення відкритих ASR-чекпойнтів: Orukeet v0.1.0 r3 — 5,39% WER проти 6,00% у Parakeet на 750 FLEURS Ukrainian кліпах.",
+    "Додано окремий доменний сигнал для fast-ukrainian-asr: кращий рядок для читаного й телефонного аудіо не перемагає Whisper-large-v3 на спонтанному мовленні.",
+    "Для вибору підписки чи API додано межу: локальний чекпойнт, корпоративний доступ і особистий тариф — різні маршрути, а жоден новий рядок не вимірює SRT або готовий сервіс."
   ],
   "uncertainty": [
     "UkrQualBench is a maintainer-published text-generation benchmark; its reported identifiers and August 2026 batch do not establish the current model behind a consumer subscription.",
     "The GEC score belongs to a specified paper, test set, model, and prompt configuration; it does not measure factual accuracy, private-document handling, or a real client workflow.",
-    "The Hutsul ASR results concern local fine-tuned models and a defined dialect corpus, not ready-to-use caption services, ordinary Ukrainian recordings, timing, export, price, or privacy.",
+    "The Orukeet and fast-ukrainian-asr rows are maintainer-published local-checkpoint evidence under named data and normalizers, not independently replicated service or subtitle evaluations.",
     "No independent comparison of ready-to-use Ukrainian caption services, spreadsheet-integrity workflows, or multi-step Ukrainian document-context retention was found."
   ],
-  "checked_at": "2026-09-15T09:18:00Z",
-  "meaningfully_updated_at": "2026-09-15T09:18:00Z",
-  "freshness_note": "Оновлено 15 вересня 2026: додано GEC-only результат із точною конфігурацією моделі та промпта, багатоспікерний гуцульський ASR-рядок і межу метрик для літературного перекладу."
+  "checked_at": "2026-09-16T09:05:00Z",
+  "meaningfully_updated_at": "2026-09-16T09:05:00Z",
+  "freshness_note": "Оновлено 16 вересня 2026: додано два опубліковані набори результатів локальних ASR-чекпойнтів. Orukeet проти Parakeet порівняно на однаковому FLEURS Ukrainian аудіо; fast-ukrainian-asr показує інший результат для читаного, телефонного й спонтанного мовлення. Це не стало рейтингом сервісів субтитрів."
 }
