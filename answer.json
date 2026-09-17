@@ -1,23 +1,23 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Для чернетки українського тексту є один модельний старт: claude-opus-5 має 1785,1 ELO в опублікованому UkrQualBench за серпень 2026. Для виправлення вже написаного тексту сильніший прямий сигнал інший: у GEC-дослідженні UNLP 2026 конфігурація Gemini 3.1-Pro з українським minimal-edits промптом має F0.5 69,22; це не доказ про нинішню підписку чи готовий документ. Для локального розпізнавання читаного українського мовлення є новий прямий рядок: Orukeet v0.1.0 r3 має 5,39% WER на 750 FLEURS Ukrainian кліпах проти 6,00% у Parakeet у записі автора; це не рейтинг API, субтитрів чи розмовного аудіо.",
+  "current_answer": "Для чернетки українського тексту є один модельний старт: claude-opus-5 має 1785,1 ELO в опублікованому UkrQualBench за серпень 2026. Для виправлення вже написаного тексту сильніший прямий сигнал інший: у GEC-дослідженні UNLP 2026 конфігурація Gemini 3.1-Pro з українським minimal-edits промптом має F0.5 69,22; це не доказ про нинішню підписку чи готовий документ. Для українських субтитрів з позначеними спікерами нова практична межа — не точність, а вихід: Scribe v2 документує українську, спікерів і таймкоди, але його ≤5% WER — власна категорія постачальника; Azure MAI-Transcribe-2 документує ті самі базові функції, проте нинішня документація попереджає про збій діаризації приблизно від 15 хвилин. Chirp 2 не має діаризації, тому не обирайте його для автоматичного поділу спікерів.",
   "catalogue_card": {
-    "question": "Коли локальна модель для українського аудіо має кращий доказ, ніж сервіс?",
-    "text": "Є одна чесно зіставна пара відкритих чекпойнтів на FLEURS Ukrainian: Orukeet нижче за Parakeet. Це допомагає лише технічній локальній задачі з подібним читаним аудіо; не обирає сервіс субтитрів."
+    "question": "Який API взяти для українських субтитрів, якщо потрібні спікери?",
+    "text": "Не починайте з назви моделі: Chirp 2 не має діаризації, Azure попереджає про її збій приблизно від 15 хвилин, а Scribe v2 документує спікерів і таймкоди. Це фільтр за виходом, не спільний рейтинг точності."
   },
   "summary": [
-    "Додано пряме парне зіставлення відкритих ASR-чекпойнтів: Orukeet v0.1.0 r3 — 5,39% WER проти 6,00% у Parakeet на 750 FLEURS Ukrainian кліпах.",
-    "Додано окремий доменний сигнал для fast-ukrainian-asr: кращий рядок для читаного й телефонного аудіо не перемагає Whisper-large-v3 на спонтанному мовленні.",
-    "Для вибору підписки чи API додано межу: локальний чекпойнт, корпоративний доступ і особистий тариф — різні маршрути, а жоден новий рядок не вимірює SRT або готовий сервіс."
+    "Додано функціональний вибір для українських субтитрів: Scribe v2 і MAI-Transcribe-2 документують спікерів і таймкоди; Chirp 2 не має діаризації.",
+    "Додано поточну межу Azure: документація MAI-Transcribe-2 попереджає, що preview-діаризація може зірватися на записах близько 15 хвилин і довших.",
+    "Для таблиць додано практичний порядок: перед асистентом може знадобитися вручну вирівняти структуру даних; це не доказ переваги конкретного продукту."
   ],
   "uncertainty": [
     "UkrQualBench is a maintainer-published text-generation benchmark; its reported identifiers and August 2026 batch do not establish the current model behind a consumer subscription.",
     "The GEC score belongs to a specified paper, test set, model, and prompt configuration; it does not measure factual accuracy, private-document handling, or a real client workflow.",
-    "The Orukeet and fast-ukrainian-asr rows are maintainer-published local-checkpoint evidence under named data and normalizers, not independently replicated service or subtitle evaluations.",
+    "ElevenLabs’ Ukrainian WER band and the documented capabilities of ElevenLabs, Azure, and Google are vendor evidence, not a shared independent Ukrainian caption comparison.",
     "No independent comparison of ready-to-use Ukrainian caption services, spreadsheet-integrity workflows, or multi-step Ukrainian document-context retention was found."
   ],
-  "checked_at": "2026-09-16T09:05:00Z",
-  "meaningfully_updated_at": "2026-09-16T09:05:00Z",
-  "freshness_note": "Оновлено 16 вересня 2026: додано два опубліковані набори результатів локальних ASR-чекпойнтів. Orukeet проти Parakeet порівняно на однаковому FLEURS Ukrainian аудіо; fast-ukrainian-asr показує інший результат для читаного, телефонного й спонтанного мовлення. Це не стало рейтингом сервісів субтитрів."
+  "checked_at": "2026-09-17T09:09:09Z",
+  "meaningfully_updated_at": "2026-09-17T09:09:09Z",
+  "freshness_note": "Оновлено 17 вересня 2026: додано документовані межі виходу для українських субтитрів і один практичний сигнал для підготовки таблиць. Нові дані не утворюють незалежного рейтингу точності сервісів."
 }

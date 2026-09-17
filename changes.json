@@ -60,6 +60,18 @@
       "changed_at": "2026-09-16T09:05:00Z",
       "summary": "Для голосу додано два джерело-обмежені набори рядків відкритих чекпойнтів: Orukeet v0.1.0 r3 має 5,39% WER проти 6,00% у Parakeet на однаковому FLEURS Ukrainian аудіо; fast-ukrainian-asr показує, що читане й телефонне аудіо не дорівнюють спонтанному. Жоден рядок не видано за рейтинг сервісів.",
       "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
+      "change_id": "caption-output-feature-boundary",
+      "changed_at": "2026-09-17T09:09:09Z",
+      "summary": "Для субтитрів додано вибір за потрібним виходом: Scribe v2 та MAI-Transcribe-2 документують спікерів і таймкоди, Chirp 2 не має діаризації, а Azure попереджає про її збій приблизно від 15 хвилин. Це не рейтинг точності.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
+      "change_id": "table-preparation-before-ai",
+      "changed_at": "2026-09-17T09:09:09Z",
+      "summary": "Для таблиць додано межу з одного практичного кейсу: перед LLM може знадобитися ручне вирівнювання структури та контрольних підсумків. Це порядок безпечної роботи, не рейтинг сервісів.",
+      "path": "/p/ukrainian-ai-ranking/use-cases/sheets/"
     }
   ]
 }

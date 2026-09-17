@@ -66,6 +66,17 @@
       "summary": "Додано парне зіставлення Orukeet і Parakeet на однаковому FLEURS Ukrainian аудіо, а також доменну межу fast-ukrainian-asr проти Whisper. Сторінка пояснює, чому ці локальні чекпойнти не обирають API чи SRT.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/16/local-asr-checkpoints/",
       "entrypoint": "research/2026/09/16/local-asr-checkpoints/index.html"
+    },
+    {
+      "run_id": "run:9786ecd0-47ac-4559-8880-7ce4bebe4997",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-17T09:00:00Z",
+      "completed_at": "2026-09-17T09:19:27Z",
+      "title": "Субтитри: вибір за спікерами, таймкодами й довжиною запису",
+      "summary": "Додано Scribe v2 як документований український маршрут зі спікерами й таймкодами, межу Azure для довгої діаризації та факт, що Chirp 2 її не підтримує. Окремо додано порядок підготовки структури таблиці перед асистентом; це не рейтинг якості.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/17/caption-output-and-table-prep/",
+      "entrypoint": "research/2026/09/17/caption-output-and-table-prep/index.html"
     }
   ]
 }

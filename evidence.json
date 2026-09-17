@@ -200,6 +200,46 @@
       "accessed_at": "2026-09-16T09:05:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "elevenlabs-scribe-v2-ukrainian-features",
+      "source_type": "vendor documentation",
+      "source_url": "https://elevenlabs.io/docs/overview/capabilities/speech-to-text",
+      "title": "ElevenLabs Speech to Text / Scribe v2",
+      "claim": "ElevenLabs lists Ukrainian for Scribe v2, documents timestamps and speaker diarization, and puts Ukrainian in its own ≤5% WER band; this is vendor evidence, not a shared independent service comparison.",
+      "accessed_at": "2026-09-17T09:09:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "azure-mai-diarization-limit",
+      "source_type": "vendor documentation",
+      "source_url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+      "title": "MAI-Transcribe-2",
+      "claim": "Azure documents Ukrainian, diarization, and word-level timestamps, but its current preview note says diarization can fail on recordings of about 15 minutes and longer.",
+      "accessed_at": "2026-09-17T09:09:09Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-chirp2-no-diarization",
+      "source_type": "vendor documentation",
+      "source_url": "https://docs.cloud.google.com/speech-to-text/docs/models/chirp-2",
+      "title": "Chirp 2",
+      "claim": "Google documents word-level timestamps and model adaptation for Chirp 2, while stating that diarization is not supported.",
+      "accessed_at": "2026-09-17T09:09:09Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "dou-data-preparation-before-ai",
+      "source_type": "practitioner community report",
+      "source_url": "https://dou.ua/forums/topic/58571/",
+      "title": "Досвід інтеграції ШІ в українській defence компанії",
+      "claim": "One practitioner describes manually standardising column names and removing unneeded fields before using an LLM for DAX; it is a bounded workflow signal, not a product comparison.",
+      "accessed_at": "2026-09-17T09:09:09Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
