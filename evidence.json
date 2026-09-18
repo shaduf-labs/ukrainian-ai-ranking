@@ -7,7 +7,7 @@
       "source_url": "https://github.com/grayodesa/ukrqualbench",
       "title": "UkrQualBench",
       "claim": "The repository labels its leaderboard August 2026 and publishes ELO plus detailed Ukrainian language-quality metrics for named model identifiers.",
-      "accessed_at": "2026-09-15T09:18:00Z",
+      "accessed_at": "2026-09-18T10:11:56.009Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     },
@@ -248,6 +248,16 @@
       "title": "Back to the Future: A Workbook Time Machine for spreadsheet creation benchmarks",
       "claim": "WTM-Bench evaluates 150 spreadsheet-agent tasks from a starting workbook to a target workbook across formulas, charts, pivot tables, and conditional formatting; its authors report that query specificity, orchestration, and interface API materially affect results. The inspected source does not offer a Ukrainian service comparison.",
       "accessed_at": "2026-09-18T09:06:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "edit-level-majority-voting-unlp-2023",
+      "source_type": "BEA Workshop research paper",
+      "source_url": "https://arxiv.org/abs/2605.13624",
+      "title": "Edit-level Majority Voting Mitigates Over-Correction in LLM-based Grammatical Error Correction",
+      "claim": "On multilingual GEC data including UNLP-2023, the paper reports that a method using eight candidates, recurring edit selection, and development-set thresholds improves over greedy and MBR decoding; it is a research method, not a ready-to-use chat comparison.",
+      "accessed_at": "2026-09-18T10:11:56.009Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     }

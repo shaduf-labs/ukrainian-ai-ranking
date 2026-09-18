@@ -88,6 +88,17 @@
       "summary": "Додано незалежну межу WTM-Bench: у задачах із формулами, діаграмами, зведеними таблицями та умовним форматуванням значення мають конкретність запиту, кроки агента й API. Сторінки таблиць тепер вимагають перевіряти цільову книгу на копії; це не рейтинг українських сервісів.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/18/workbook-final-artifact-check/",
       "entrypoint": "research/2026/09/18/workbook-final-artifact-check/index.html"
+    },
+    {
+      "run_id": "run:manual:4563c30777c5e6f3cadcfc367095334f",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-18T09:50:53.919Z",
+      "completed_at": "2026-09-18T10:11:56.009Z",
+      "title": "Вичитка: гладший текст ще не означає точнішу правку",
+      "summary": "Додано дослідницьку межу для зайвих правок: метод на UNLP-2023 працює з вісьмома варіантами, повторюваними редагуваннями та калібруванням, тому не є порадою повторювати запит у чаті. Для листа додано коротку перевірку різниці до й після; це не рейтинг сервісів.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/18/proofreading-diff-before-send/",
+      "entrypoint": "research/2026/09/18/proofreading-diff-before-send/index.html"
     }
   ]
 }

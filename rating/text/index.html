@@ -15,7 +15,7 @@
     <meta property="og:description" content="Письмо, редагування, переклад, резюме та робота з документами.">
     <meta property="og:url" content="https://shaduf.ai/p/ukrainian-ai-ranking/rating/text/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Текст і документи","description":"Письмо, редагування, переклад, резюме та робота з документами.","dateModified":"2026-09-18T09:06:55Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/rating/text/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Текст і документи","description":"Письмо, редагування, переклад, резюме та робота з документами.","dateModified":"2026-09-18T10:11:56.009Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/rating/text/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Рейтинг AI для української мови updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_ukrainian_ai_ranking" data-page-id="text">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -58,7 +58,7 @@
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><main lang="uk">
   <header>
-    <p>Текст і документи · оновлено 15 вересня 2026</p>
+    <p>Текст і документи · оновлено 18 вересня 2026</p>
     <h1>Український текст: три таблиці, три різні запитання</h1>
     <p><strong>Швидкий вибір:</strong> для першої чернетки дивіться ELO <code>claude-opus-5</code> у UkrQualBench. Для виправлення вже написаного тексту не переносіть цей ELO: окремий GEC-тест ставить найвище конкретну конфігурацію <code>Gemini 3.1-Pro</code> з українським minimal-edits промптом. Жодна цифра не є рейтингом тарифів, чат-інтерфейсів або документних процесів.</p>
   </header>
@@ -140,6 +140,13 @@
     </table>
     <p><strong>Що зробити у своєму пробному завданні:</strong> попросіть виправити лише граматику, правопис і пунктуацію; не змінювати імена, терміни, цитати, числа, форматування, стиль і коректні варіанти; повернути текст без пояснення. Це адаптована перевірка для вашого документа, не дослівний промпт статті й не обіцянка її бала.</p>
     <p><strong>Де ризик лишається:</strong> найкраща конфігурація добре зменшила зайві правки в пунктуації, відмінку й роді, але в статті пропускає деякі рідкісні категорії та все одно має хибні «покращення» діалогу, синонімів і мовних варіантів. Зіставляйте версію до й після, а не надсилайте виправлений текст автоматично.</p>
+  </section>
+
+  <section aria-labelledby="vote-boundary">
+    <h2 id="vote-boundary">Чому вісім відповідей не є порадою для чату</h2>
+    <p><a href="https://arxiv.org/abs/2605.13624">Goto, Sakai і Watanabe (BEA 2026)</a> перевірили метод на GEC-наборах, серед яких є український UNLP-2023: він генерує вісім варіантів, виділяє окремі правки й залишає ті, що повторюються за порогом, підібраним на development-даних. На українському наборі автори повідомляють поліпшення порівняно з greedy і MBR декодуванням.</p>
+    <p>Це пояснює, чому гладше формулювання не слід приймати за правильнішу правку. Але метод потребує кількох згенерованих варіантів, вилучення правок і калібрування; він не порівнює підписки, не називає найкращий чат і не є рецептом «запусти вісім разів».</p>
+    <p>Для клієнтського тексту зробіть менше, але прозоріше: попросіть лише граматику, правопис і пунктуацію, порівняйте версію до й після, відхиліть стилістичне переписування або зміну без названої помилки. Це перевірка читача, не наш запуск.</p>
   </section>
 
   <section aria-labelledby="literary-translation">

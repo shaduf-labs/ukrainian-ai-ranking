@@ -1,23 +1,24 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Для чернетки українського тексту є один модельний старт: claude-opus-5 має 1785,1 ELO в опублікованому UkrQualBench за серпень 2026. Для виправлення вже написаного тексту сильніший прямий сигнал інший: у GEC-дослідженні UNLP 2026 конфігурація Gemini 3.1-Pro з українським minimal-edits промптом має F0.5 69,22; це не доказ про нинішню підписку чи готовий документ. Для українських субтитрів із позначеними спікерами Scribe v2 документує українську, спікерів і таймкоди; Azure MAI-Transcribe-2 документує ті самі базові функції, проте його документація попереджає про збій діаризації приблизно від 15 хвилин; Chirp 2 не має діаризації. Для таблиці не беріть мовну підтримку за доказ цілісності: новий WTM-Bench показує, що результат залежить також від конкретності запиту, кроків агента й API, а його тест не є українським рейтингом сервісів.",
+  "current_answer": "Для чернетки українського тексту є один модельний старт: claude-opus-5 має 1785,1 ELO в опублікованому UkrQualBench за серпень 2026. Для виправлення вже написаного тексту сильніший прямий сигнал інший: у GEC-дослідженні UNLP 2026 конфігурація Gemini 3.1-Pro з українським minimal-edits промптом має F0.5 69,22; це не доказ про нинішню підписку чи готовий документ. Окреме дослідження на UNLP-2023 показує, чому гладший текст не слід приймати автоматично: його метод зберігає лише повторювані правки серед восьми варіантів, але потребує коду й налаштування на тестових даних. Для українських субтитрів із позначеними спікерами Scribe v2 документує українську, спікерів і таймкоди; Azure MAI-Transcribe-2 документує ті самі базові функції, проте його документація попереджає про збій діаризації приблизно від 15 хвилин; Chirp 2 не має діаризації. Для таблиці не беріть мовну підтримку за доказ цілісності: WTM-Bench показує, що результат залежить також від конкретності запиту, кроків агента й API, а його тест не є українським рейтингом сервісів.",
   "catalogue_card": {
-    "question": "Як перевірити ШІ для української таблиці до оплати?",
-    "text": "Не купуйте за словом «підтримує українську». Новий WTM-Bench показує: для таблиці важать також конкретність запиту, кроки агента й API. На копії перевірте готовий файл — формули, контрольні суми, дати, гривні та повторне відкриття; це не рейтинг сервісів."
+    "question": "Як не перетворити вичитку на переписування?",
+    "text": "Новий GEC-метод зменшує зайві правки, але працює з вісьмома варіантами, вилученням правок і калібруванням. Не імітуйте його в чаті: вимагайте лише мовних правок, порівняйте різницю та відхиліть переписування. Це не рейтинг підписок."
   },
   "summary": [
-    "Додано незалежну межу для таблиць: WTM-Bench оцінює не відповідь у чаті, а перехід від початкової до цільової книги.",
-    "У маршруті для таблиць додано критерій приймання: названий аркуш і діапазон, контрольні значення, форматування та повторне відкриття у цільовій програмі.",
-    "Підтверджено поточну таблицю UkrQualBench: в опублікованому пакеті за серпень 2026 claude-opus-5 залишається на 1785,1 ELO."
+    "Додано межу для вичитки: метод на UNLP-2023 поліпшує GEC, лишаючи повторювані правки серед восьми варіантів після калібрування; це програмний метод, не чатова порада.",
+    "Маршрут для листа тепер прямо вимагає відхиляти стилістичне переписування або зміну без названої мовної помилки.",
+    "Повторно перевірено UkrQualBench: у опублікованій таблиці за серпень 2026 claude-opus-5 лишається на 1785,1 ELO."
   ],
   "uncertainty": [
     "UkrQualBench is a maintainer-published text-generation benchmark; its reported identifiers and August 2026 batch do not establish the current model behind a consumer subscription.",
     "The GEC score belongs to a specified paper, test set, model, and prompt configuration; it does not measure factual accuracy, private-document handling, or a real client workflow.",
+    "The edit-level voting paper uses a benchmark-oriented eight-candidate method and development-selected thresholds; it does not show a consumer-chat result or a simple repeated-chat recipe.",
     "ElevenLabs’ Ukrainian WER band and the documented capabilities of ElevenLabs, Azure, and Google are vendor evidence, not a shared independent Ukrainian caption comparison.",
-    "WTM-Bench does not compare Ukrainian instructions, current spreadsheet subscriptions, formulas, dates, hryvnia formatting, or export for the same workbook."
+    "The inspected WTM-Bench description does not report a comparison of Ukrainian instructions, current spreadsheet subscriptions, formulas, dates, hryvnia formatting, or export for the same workbook."
   ],
-  "checked_at": "2026-09-18T09:06:55Z",
-  "meaningfully_updated_at": "2026-09-18T09:06:55Z",
-  "freshness_note": "Оновлено 18 вересня 2026: додано незалежний стандарт перевірки готового файла для таблиць. Він не є українським вимірюванням і не створює рейтинг Gemini, ChatGPT чи Copilot."
+  "checked_at": "2026-09-18T10:11:56.009Z",
+  "meaningfully_updated_at": "2026-09-18T10:11:56.009Z",
+  "freshness_note": "Оновлено 18 вересня 2026: додано межу для вичитки — гладший текст не є доказом правильної правки. Метод із восьми варіантів не створює рейтинг підписок і не замінює порівняння версії до й після."
 }
