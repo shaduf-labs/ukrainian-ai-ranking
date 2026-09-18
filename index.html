@@ -15,7 +15,7 @@
     <meta property="og:description" content="Коротка відповідь на запитання, що змінилося, і шлях до потрібного завдання.">
     <meta property="og:url" content="https://shaduf.ai/p/ukrainian-ai-ranking/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Який AI найкраще працює українською?","description":"Коротка відповідь на запитання, що змінилося, і шлях до потрібного завдання.","dateModified":"2026-09-17T09:09:09Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Який AI найкраще працює українською?","description":"Коротка відповідь на запитання, що змінилося, і шлях до потрібного завдання.","dateModified":"2026-09-18T09:06:55Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Рейтинг AI для української мови updates" href="feed.xml"><link rel="stylesheet" href="assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_ukrainian_ai_ranking" data-page-id="home">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -58,7 +58,7 @@
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><main lang="uk">
   <header>
-    <p>Оновлено 17 вересня 2026 · чернетка, вичитка, переклад і субтитри мають різні докази</p>
+    <p>Оновлено 18 вересня 2026 · для таблиці перевіряйте готовий файл, не відповідь у чаті</p>
     <h1>Який ШІ обрати для української роботи?</h1>
     <p><strong>Потрібна перша чернетка:</strong> у відкритій таблиці <a href="https://github.com/grayodesa/ukrqualbench">UkrQualBench</a>, позначеній «серпень 2026», <code>claude-opus-5</code> має найвищий ELO — 1785,1. Це старт для генерації, а не обіцянка про вашу нинішню підписку, документ або переклад.</p>
     <p><strong>Потрібно виправити вже написаний текст:</strong> у <a href="https://aclanthology.org/2026.unlp-1.13.pdf">GEC-дослідженні UNLP 2026</a> найкраща API-конфігурація — <code>Gemini 3.1-Pro</code> з українським minimal-edits промптом — має F0.5 69,22. Це результат конкретного тесту й промпта, не рейтинг тарифів.</p>
@@ -71,7 +71,7 @@
       <tbody>
         <tr><td><a href="rating/text/index.html">Чернетка, вичитка, переклад</a></td><td>Для чернетки — <code>claude-opus-5</code> у ELO генерації; для вичитки з мінімальними правками — конфігурація <code>Gemini 3.1-Pro</code> у окремому GEC-тесті.</td><td>Що та сама модель є у вашому тарифі, збереже факти й тон, або найкраще перекладе художній чи клієнтський текст.</td></tr>
         <tr><td><a href="rating/speech/index.html">Транскрипція, субтитри, голос</a></td><td>Для спікерів і таймкодів є документовані <code>Scribe v2</code> та <code>MAI-Transcribe-2</code>; в Azure поточна межа діаризації близько 15 хв. <code>chirp_2</code> не має діаризації. Для локального читаного аудіо є прямий рядок <code>Orukeet v0.1.0 r3</code> проти Parakeet.</td><td>Хто точніше впорається з вашими іменами, шумом, кількома спікерами, стандартною українською, SRT і таймінгом; документація функцій і FLEURS-рядок цього не вимірюють.</td></tr>
-        <tr><td><a href="rating/spreadsheets/index.html">Таблиця</a></td><td>Є три різні шляхи з задокументованою підтримкою: Gemini у Sheets, Microsoft Copilot, ChatGPT для Excel і Google Sheets.</td><td>Хто збереже формули, дати, гривні, форматування та експорт української книги.</td></tr>
+        <tr><td><a href="rating/spreadsheets/index.html">Таблиця</a></td><td>Є три різні шляхи з задокументованою підтримкою: Gemini у Sheets, Microsoft Copilot, ChatGPT для Excel і Google Sheets. Обирайте середовище, а потім перевіряйте фінальну книгу.</td><td>Хто збереже формули, дати, гривні, форматування та експорт української книги; WTM-Bench не дає цього українського порівняння.</td></tr>
         <tr><td><a href="rating/business/index.html">Лист, документ, пропозиція</a></td><td>Візьміть окремий сигнал для генерації або вичитки, а сервіс — після короткої перевірки ризикового кроку на безпечному прикладі.</td><td>Загальний переможець для вашої підписки, даних і відповідальності перед клієнтом.</td></tr>
       </tbody>
     </table>
@@ -91,6 +91,11 @@
   <section aria-labelledby="translation">
     <h2 id="translation">Для художнього перекладу бал може приховати головне</h2>
     <p>У дослідженні <a href="https://aclanthology.org/2026.unlp-1.8.pdf">UNLP 2026</a> GPT-5.2, DeepL і Lapa лідирували за нейронними метриками на корпусі «Animal Farm», але в оцінці літературності без англійського оригіналу всі три опинилися нижче за людські переклади. Для тексту з голосом автора не купуйте сервіс за метрикою: попросіть редактора прочитати результат саме українською.</p>
+  </section>
+  <section aria-labelledby="workbook-check">
+    <h2 id="workbook-check">Таблиця: «готово» лише після перевірки файла</h2>
+    <p>Новий <a href="https://arxiv.org/abs/2608.07873">WTM-Bench</a> оцінює перехід від початкової до цільової книги для формул, діаграм, зведених таблиць і умовного форматування. Автори показують, що на результат впливають конкретність запиту, кроки агента й API. У прочитаному описі немає українського тесту Gemini, ChatGPT чи Copilot; це причина не приймати правдоподібний текст у чаті за готову книгу.</p>
+    <p>На копії зафіксуйте аркуш і діапазон, контрольні суми, формули, дати, гривневий формат і спосіб експорту. Після зміни відкрийте файл у цільовій програмі. Якщо один критичний елемент зник або перетворився на текст, сервіс не пройшов вашу задачу — незалежно від гарної відповіді.</p>
   </section>
   <section aria-labelledby="before-pay">
     <h2 id="before-pay">Правило перед оплатою</h2>
@@ -119,7 +124,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>17 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>18 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Зіставляємо якість української за конкретними задачами, ціни, обмеження й ручну доопрацюваність; відділяємо заяви від перевірок.</p><a href="index.html">Full pool information →</a></section>
     </div>

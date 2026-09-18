@@ -240,6 +240,16 @@
       "accessed_at": "2026-09-17T09:09:09Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "wtm-bench-final-workbook-2026",
+      "source_type": "research paper and benchmark repository",
+      "source_url": "https://arxiv.org/abs/2608.07873",
+      "title": "Back to the Future: A Workbook Time Machine for spreadsheet creation benchmarks",
+      "claim": "WTM-Bench evaluates 150 spreadsheet-agent tasks from a starting workbook to a target workbook across formulas, charts, pivot tables, and conditional formatting; its authors report that query specificity, orchestration, and interface API materially affect results. The inspected source does not offer a Ukrainian service comparison.",
+      "accessed_at": "2026-09-18T09:06:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

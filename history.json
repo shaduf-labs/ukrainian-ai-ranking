@@ -77,6 +77,17 @@
       "summary": "Додано Scribe v2 як документований український маршрут зі спікерами й таймкодами, межу Azure для довгої діаризації та факт, що Chirp 2 її не підтримує. Окремо додано порядок підготовки структури таблиці перед асистентом; це не рейтинг якості.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/17/caption-output-and-table-prep/",
       "entrypoint": "research/2026/09/17/caption-output-and-table-prep/index.html"
+    },
+    {
+      "run_id": "run:4b0e7a36-d22c-4837-8db7-1bbb4027ca6d",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-18T09:00:00Z",
+      "completed_at": "2026-09-18T09:12:44Z",
+      "title": "Таблиця не готова, доки не відкрилася правильно",
+      "summary": "Додано незалежну межу WTM-Bench: у задачах із формулами, діаграмами, зведеними таблицями та умовним форматуванням значення мають конкретність запиту, кроки агента й API. Сторінки таблиць тепер вимагають перевіряти цільову книгу на копії; це не рейтинг українських сервісів.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/18/workbook-final-artifact-check/",
+      "entrypoint": "research/2026/09/18/workbook-final-artifact-check/index.html"
     }
   ]
 }
