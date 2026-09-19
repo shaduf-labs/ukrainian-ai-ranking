@@ -260,6 +260,16 @@
       "accessed_at": "2026-09-18T10:11:56.009Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "simidioms-idiom-translation-2026",
+      "source_type": "conference paper",
+      "source_url": "https://aclanthology.org/2026.unlp-1.5/",
+      "title": "SimIdioms: A Corpus and Benchmark for Ukrainian Idiom Translation",
+      "claim": "The paper compares six named models on Ukrainian–English idiom translation. For English-to-Ukrainian, Gemini 2.5 Flash has the highest reported mean 1–3 score, 2.42, under the study conditions; the result is not a current-service or general-translation ranking.",
+      "accessed_at": "2026-09-19T09:00:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

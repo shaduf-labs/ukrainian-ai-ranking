@@ -15,7 +15,7 @@
     <meta property="og:description" content="Письмо, редагування, переклад, резюме та робота з документами.">
     <meta property="og:url" content="https://shaduf.ai/p/ukrainian-ai-ranking/rating/text/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Текст і документи","description":"Письмо, редагування, переклад, резюме та робота з документами.","dateModified":"2026-09-18T10:11:56.009Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/rating/text/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Текст і документи","description":"Письмо, редагування, переклад, резюме та робота з документами.","dateModified":"2026-09-19T09:11:30.000Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/rating/text/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Рейтинг AI для української мови updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_ukrainian_ai_ranking" data-page-id="text">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -58,9 +58,9 @@
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><main lang="uk">
   <header>
-    <p>Текст і документи · оновлено 18 вересня 2026</p>
-    <h1>Український текст: три таблиці, три різні запитання</h1>
-    <p><strong>Швидкий вибір:</strong> для першої чернетки дивіться ELO <code>claude-opus-5</code> у UkrQualBench. Для виправлення вже написаного тексту не переносіть цей ELO: окремий GEC-тест ставить найвище конкретну конфігурацію <code>Gemini 3.1-Pro</code> з українським minimal-edits промптом. Жодна цифра не є рейтингом тарифів, чат-інтерфейсів або документних процесів.</p>
+    <p>Текст і документи · оновлено 19 вересня 2026</p>
+    <h1>Український текст: чотири таблиці, чотири різні запитання</h1>
+    <p><strong>Швидкий вибір:</strong> для першої чернетки дивіться ELO <code>claude-opus-5</code> у UkrQualBench. Для виправлення вже написаного тексту не переносіть цей ELO: окремий GEC-тест ставить найвище конкретну конфігурацію <code>Gemini 3.1-Pro</code> з українським minimal-edits промптом. Для англійських речень зі сталими виразами тепер є ще одна вузька таблиця: SimIdioms ставить <code>Gemini 2.5 Flash</code> першим за своїм середнім EN→UK балом. Жодна цифра не є рейтингом тарифів, чат-інтерфейсів або документних процесів.</p>
   </header>
 
   <section aria-labelledby="uqb">
@@ -149,14 +149,33 @@
     <p>Для клієнтського тексту зробіть менше, але прозоріше: попросіть лише граматику, правопис і пунктуацію, порівняйте версію до й після, відхиліть стилістичне переписування або зміну без названої помилки. Це перевірка читача, не наш запуск.</p>
   </section>
 
+
+  <section aria-labelledby="simidioms">
+    <h2 id="simidioms">4. Переклад ідіом англійська→українська: SimIdioms</h2>
+    <p>Тут є справді зіставна таблиця, але вона відповідає лише на вузьке питання: як шість названих у статті моделей перекладають <strong>речення зі сталими виразами</strong> з англійської українською. Рядки відсортовано за спаданням середнього бала 1–3 із Таблиці 4, усередненого за базовою та контекстною умовою статті. Бал 3 означає збережений образний зміст і природний сталий відповідник; 2 — зміст збережено, але вислів буквальний; 1 — зміст втрачено або суттєво спотворено.</p>
+    <table>
+      <thead><tr><th>Місце</th><th>Модель, як названа у статті</th><th>Середній бал EN→UK</th><th>Зміна, коли джерельну ідіому названо в промпті</th><th>Метод, дата й джерело</th><th>Межа</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><code>Gemini 2.5 Flash</code></td><td>2,42 / 3</td><td>+0,161</td><td>UNLP 2026, травень · <a href="https://aclanthology.org/2026.unlp-1.5.pdf">SimIdioms, табл. 4–5</a></td><td>Ідіоми, умови статті й LLM-суддя; не поточна підписка.</td></tr>
+        <tr><td>2=</td><td><code>Claude Haiku 4.5</code></td><td>2,09 / 3</td><td>+0,094</td><td>UNLP 2026, травень · <a href="https://aclanthology.org/2026.unlp-1.5.pdf">SimIdioms, табл. 4–5</a></td><td>Не загальна якість перекладу чи клієнтського документа.</td></tr>
+        <tr><td>2=</td><td><code>Gemma 3 12B</code></td><td>2,09 / 3</td><td>+0,133</td><td>UNLP 2026, травень · <a href="https://aclanthology.org/2026.unlp-1.5.pdf">SimIdioms, табл. 4–5</a></td><td>У статті це модельний рядок, не готовий сервіс.</td></tr>
+        <tr><td>4</td><td><code>LapaLM</code></td><td>1,98 / 3</td><td>+0,000</td><td>UNLP 2026, травень · <a href="https://aclanthology.org/2026.unlp-1.5.pdf">SimIdioms, табл. 4–5</a></td><td>Не робить висновку про інші перекладацькі задачі.</td></tr>
+        <tr><td>5</td><td><code>Qwen3-30B-A3B</code></td><td>1,80 / 3</td><td>+0,024</td><td>UNLP 2026, травень · <a href="https://aclanthology.org/2026.unlp-1.5.pdf">SimIdioms, табл. 4–5</a></td><td>Промпт і модельний доступ статті не дорівнюють вашому плану.</td></tr>
+        <tr><td>6</td><td><code>Tiny Aya Global</code></td><td>1,68 / 3</td><td>−0,009</td><td>UNLP 2026, травень · <a href="https://aclanthology.org/2026.unlp-1.5.pdf">SimIdioms, табл. 4–5</a></td><td>Не вимірює ціну, приватність або людське приймання готового тексту.</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Що можна обрати:</strong> якщо ваш доступ справді дає <code>Gemini 2.5 Flash</code> і в англійському джерелі є важлива ідіома, це найкращий із шести рядків саме цього тесту. Назвіть вислів у запиті й попросіть природний український відповідник, а не буквальний переклад. У статті це додало Gemini 0,161 бала, але не допомогло однаково всім моделям.</p>
+    <p><strong>Що не можна обрати:</strong> «найкращий перекладач» для будь-якого тексту. SimIdioms охоплює 33&nbsp;565 EN→UK перекладів із ідіомами; суддею був Gemini 2.5 Flash. На перевірці 100 EN→UK прикладів його оцінка збіглася з одним людським оцінювачем у 78% випадків. Це корисна перевірка методу, але не замінює редактора для вашої публікації.</p>
+  </section>
+
   <section aria-labelledby="literary-translation">
-    <h2 id="literary-translation">4. Художній переклад: не вибирайте за метрикою без читання українського тексту</h2>
+    <h2 id="literary-translation">5. Художній переклад: не вибирайте за метрикою без читання українського тексту</h2>
     <p>У дослідженні UNLP на семи людських перекладах «Animal Farm» і результатах <code>GPT-5.2</code>, DeepL та Lapa всі три ШІ-системи очолили сім нейронних метрик. Але без англійського оригіналу літературний LLM-суддя поставив усі три нижче за людей; 1&nbsp;034 парні людські оцінки не повторили порядок метрик. <a href="https://aclanthology.org/2026.unlp-1.8.pdf">Джерело й метод</a></p>
     <p>Це один літературний корпус, не вирок кожному робочому перекладу. Він дає практичне правило: для художнього, брендового або авторського тексту перевіряйте не лише зміст, а й голос, лексику, частки та небажану одноманітність у готовій українській версії.</p>
   </section>
 
   <section aria-labelledby="languk">
-    <h2 id="languk">5. Переклад і QA: один перевірений рядок Ukrainian LLM Leaderboard</h2>
+    <h2 id="languk">6. Переклад і QA: один перевірений рядок Ukrainian LLM Leaderboard</h2>
     <p>Відкритий Ukrainian LLM Leaderboard охоплює переклад, резюме, QA, міркування, математику й інструкції. У цій редакції ми перевірили один конкретний агрегований файл, а не вигадували місця між різними файлами.</p>
     <table>
       <thead><tr><th>Модель / checkpoint</th><th>Провайдер</th><th>Тест</th><th>Метрика й бал</th><th>Дата результату</th><th>Пряме джерело</th></tr></thead>
@@ -189,7 +208,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>18 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>19 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Зіставляємо якість української за конкретними задачами, ціни, обмеження й ручну доопрацюваність; відділяємо заяви від перевірок.</p><a href="../../index.html">Full pool information →</a></section>
     </div>

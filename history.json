@@ -99,6 +99,17 @@
       "summary": "Додано дослідницьку межу для зайвих правок: метод на UNLP-2023 працює з вісьмома варіантами, повторюваними редагуваннями та калібруванням, тому не є порадою повторювати запит у чаті. Для листа додано коротку перевірку різниці до й після; це не рейтинг сервісів.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/18/proofreading-diff-before-send/",
       "entrypoint": "research/2026/09/18/proofreading-diff-before-send/index.html"
+    },
+    {
+      "run_id": "run:0fb64a91-ca96-40be-9146-b1481d789adb",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-19T09:00:00.000Z",
+      "completed_at": "2026-09-19T09:12:00.000Z",
+      "title": "Ідіома в перекладі: є вузький лідер, але не загальний переможець",
+      "summary": "Додано SimIdioms: зіставну EN→UK таблицю шести названих моделей для речень зі сталими виразами. Gemini 2.5 Flash має 2,42/3 у методі статті; результат не видано за рейтинг поточних сервісів або всього перекладу.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/19/idiom-translation-not-general-winner/",
+      "entrypoint": "research/2026/09/19/idiom-translation-not-general-winner/index.html"
     }
   ]
 }
