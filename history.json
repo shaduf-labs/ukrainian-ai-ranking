@@ -110,6 +110,17 @@
       "summary": "Додано SimIdioms: зіставну EN→UK таблицю шести названих моделей для речень зі сталими виразами. Gemini 2.5 Flash має 2,42/3 у методі статті; результат не видано за рейтинг поточних сервісів або всього перекладу.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/19/idiom-translation-not-general-winner/",
       "entrypoint": "research/2026/09/19/idiom-translation-not-general-winner/index.html"
+    },
+    {
+      "run_id": "run:189921f9-35ec-4c29-af8b-9a035756af78",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-20T09:00:00.000Z",
+      "completed_at": "2026-09-20T09:21:24.000Z",
+      "title": "Фаховий переклад: перевірена термінологічна опора перед вибором моделі",
+      "summary": "Додано UNLP-маршрут для повторюваного EN→UK фахового перекладу: у вузькому приватному corpus retrieval прикладів покращив метрики, але надлишковий контекст зашкодив меншій моделі. Висновок не перетворено на рейтинг чатів.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/20/domain-reference-before-model/",
+      "entrypoint": "research/2026/09/20/domain-reference-before-model/index.html"
     }
   ]
 }

@@ -270,6 +270,26 @@
       "accessed_at": "2026-09-19T09:00:00.000Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-domain-rag-translation-2026",
+      "source_type": "conference paper",
+      "source_url": "https://aclanthology.org/2026.unlp-1.1/",
+      "title": "Improving Domain-Specific Translation from English into Ukrainian with Retrieval-Augmented Generation",
+      "claim": "A private legal/military EN→UK corpus study evaluates specified Gemma 3 models and Gemini 3 Flash with retrieved bilingual examples; augmentation improves the study metrics while excess context can hurt a smaller model.",
+      "accessed_at": "2026-09-20T09:17:36.888Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "statcounter-ukraine-chatbot-share-august-2026",
+      "source_type": "web-usage market-share page",
+      "source_url": "https://gs.statcounter.com/ai-chatbot-market-share/all/ukraine",
+      "title": "AI Chatbot Market Share in Ukraine",
+      "claim": "The page displays August 2026 web-usage shares by AI chatbot in Ukraine; it is context for reachable products, not a quality or preference ranking.",
+      "accessed_at": "2026-09-20T09:17:36.888Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

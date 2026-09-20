@@ -1,24 +1,26 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Для чернетки українського тексту є один модельний старт: claude-opus-5 має 1785,1 ELO в опублікованому UkrQualBench за серпень 2026. Для виправлення вже написаного тексту сильніший прямий сигнал інший: у GEC-дослідженні UNLP 2026 конфігурація Gemini 3.1-Pro з українським minimal-edits промптом має F0.5 69,22; це не доказ про нинішню підписку чи готовий документ. Для англійських речень зі сталими виразами є окрема таблиця: у SimIdioms (UNLP 2026) Gemini 2.5 Flash має найвищий середній бал 2,42/3 у напрямку англійська→українська; це не загальний рейтинг перекладу чи сервісів. Для українських субтитрів із позначеними спікерами Scribe v2 документує українську, спікерів і таймкоди; Azure MAI-Transcribe-2 документує ті самі базові функції, проте його документація попереджає про збій діаризації приблизно від 15 хвилин; Chirp 2 не має діаризації. Для таблиці не беріть мовну підтримку за доказ цілісності: WTM-Bench показує, що результат залежить також від конкретності запиту, кроків агента й API, а його тест не є українським рейтингом сервісів.",
+  "current_answer": "Для чернетки українського тексту є один модельний старт: claude-opus-5 має 1785,1 ELO в опублікованому UkrQualBench за серпень 2026. Для виправлення вже написаного тексту сильніший прямий сигнал інший: у GEC-дослідженні UNLP 2026 конфігурація Gemini 3.1-Pro з українським minimal-edits промптом має F0.5 69,22; це не доказ про нинішню підписку чи готовий документ. Для англійських речень зі сталими виразами є окрема таблиця: у SimIdioms (UNLP 2026) Gemini 2.5 Flash має найвищий середній бал 2,42/3 у напрямку англійська→українська; це не загальний рейтинг перекладу чи сервісів. Для повторюваного технічного або юридичного EN→UK перекладу новий UNLP-результат дає інший напрям: у вузькому приватному корпусі перевірені двомовні приклади покращили показники, але це не порівняння чатів або доказ, що більше контексту завжди краще. Для українських субтитрів із позначеними спікерами Scribe v2 документує українську, спікерів і таймкоди; Azure MAI-Transcribe-2 документує ті самі базові функції, проте його документація попереджає про збій діаризації приблизно від 15 хвилин; Chirp 2 не має діаризації. Для таблиці не беріть мовну підтримку за доказ цілісності: WTM-Bench показує, що результат залежить також від конкретності запиту, кроків агента й API, а його тест не є українським рейтингом сервісів.",
   "catalogue_card": {
-    "question": "Який ШІ брати для перекладу ідіоми українською?",
-    "text": "У SimIdioms (UNLP 2026) Gemini 2.5 Flash має 2,42/3 — найвищий бал серед шести названих моделей для EN→UK речень зі сталими виразами. Це не загальний рейтинг перекладачів: позначте ідіому окремо й перечитайте готовий рядок у контексті."
+    "question": "Що брати для повторюваного фахового EN→UK перекладу?",
+    "text": "Не починайте з «найкращої моделі». У вузькому UNLP 2026 дослідженні перевірені двомовні приклади поліпшили доменний переклад, а надлишок контексту зашкодив меншій моделі. Підготуйте дозволений глосарій або вичитані пари й звірте терміни у фінальному тексті; це не рейтинг чатів чи доказ для вашого домену."
   },
   "summary": [
     "Додано зіставну таблицю SimIdioms для EN→UK речень зі сталими виразами: Gemini 2.5 Flash має найвищий середній бал 2,42/3; Claude Haiku 4.5 і Gemma 3 12B — по 2,09.",
     "Текстовий маршрут тепер дає один вузький крок: позначте матеріальну ідіому й попросіть природний український відповідник, але перечитайте весь рядок у контексті.",
-    "Таблицю прямо відокремлено від загального перекладу, поточних тарифів, цін, приватності та остаточної людської оцінки."
+    "Таблицю прямо відокремлено від загального перекладу, поточних тарифів, цін, приватності та остаточної людської оцінки.",
+    "Додано маршрут для повторюваного фахового EN→UK перекладу: у приватному UNLP-корпусі підібрані перевірені двомовні приклади поліпшили ChrF++ і COMET, але надлишок контексту погіршив один менший модельний рядок."
   ],
   "uncertainty": [
     "UkrQualBench is a maintainer-published text-generation benchmark; its reported identifiers and August 2026 batch do not establish the current model behind a consumer subscription.",
     "The GEC score belongs to a specified paper, test set, model, and prompt configuration; it does not measure factual accuracy, private-document handling, or a real client workflow.",
     "The SimIdioms table measures English-to-Ukrainian sentences containing idioms with the paper’s prompts and LLM-judge scale; it does not identify a current service, immutable deployment, or general translation winner.",
     "ElevenLabs’ Ukrainian WER band and the documented capabilities of ElevenLabs, Azure, and Google are vendor evidence, not a shared independent Ukrainian caption comparison.",
-    "The inspected WTM-Bench description does not report a comparison of Ukrainian instructions, current spreadsheet subscriptions, formulas, dates, hryvnia formatting, or export for the same workbook."
+    "The inspected WTM-Bench description does not report a comparison of Ukrainian instructions, current spreadsheet subscriptions, formulas, dates, hryvnia formatting, or export for the same workbook.",
+    "UNLP domain-RAG study uses a private legal/military corpus, selected bilingual examples, specified models, and offline metrics; it does not establish performance, privacy, upload behavior, or a general winner for current consumer services."
   ],
-  "checked_at": "2026-09-19T09:11:30.000Z",
-  "meaningfully_updated_at": "2026-09-19T09:11:30.000Z",
-  "freshness_note": "Оновлено 19 вересня 2026: додано вузьку EN→UK таблицю для речень зі сталими виразами. Лідер SimIdioms не є загальним переможцем перекладу або доказом про ваш поточний сервіс."
+  "checked_at": "2026-09-20T09:17:36.888Z",
+  "meaningfully_updated_at": "2026-09-20T09:17:36.888Z",
+  "freshness_note": "Оновлено 20 вересня 2026: додано вузький маршрут для фахового EN→UK перекладу з погодженими двомовними прикладами. Результат UNLP показує користь контексту лише у приватному corpus і не є рейтингом чатів або підписок."
 }
