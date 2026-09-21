@@ -290,6 +290,26 @@
       "accessed_at": "2026-09-20T09:17:36.888Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-en-uk-translation-quality-judges-2026",
+      "source_type": "conference paper",
+      "source_url": "https://aclanthology.org/2026.unlp-1.10/",
+      "title": "Professional Translators Versus Quality Estimation Models: Reliability and Agreement in English-Ukrainian Translation Evaluation",
+      "claim": "On 1,000 English–Ukrainian OPUS pairs, the paper reports correlations of three LLM judges and three QE models with averaged professional holistic ratings; Gemini 3 Flash is r=0.821 and GPT-5.4 r=0.814 under its rubric. This evaluates judgment agreement, not current service or final-document quality.",
+      "accessed_at": "2026-09-21T09:23:53.966Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "deepl-ukrainian-glossary-feature-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.deepl.com/hc/en-us/articles/360021634540-About-the-glossary",
+      "title": "About the glossary",
+      "claim": "DeepL documents Ukrainian among its glossary languages and glossary availability for text and file translation; free entries are local to one browser while listed paid account plans store them in the account. This is vendor feature documentation, not an independent Ukrainian quality comparison.",
+      "accessed_at": "2026-09-21T09:23:53.966Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

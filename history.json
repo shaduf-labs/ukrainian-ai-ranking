@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:441d295d-48e8-41e5-8f63-86f9ae525997",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-21T09:00:00.000Z",
+      "completed_at": "2026-09-21T09:26:06.503Z",
+      "title": "Глосарій і бал: що не варто плутати з готовим перекладом",
+      "summary": "Додано UNLP-таблицю інструментів оцінювання EN→UK перекладу та документований український глосарійний маршрут DeepL. Висновок не перетворено на рейтинг перекладачів або автоматичне приймання тексту.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/21/translation-review-is-not-approval/",
+      "entrypoint": "research/2026/09/21/translation-review-is-not-approval/index.html"
+    },
+    {
       "run_id": "run:6ff7a622-b517-418b-9516-a797dd94b9f9",
       "status": "completed",
       "answer_change": "meaningful_change",
