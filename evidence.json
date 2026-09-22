@@ -310,6 +310,16 @@
       "accessed_at": "2026-09-21T09:23:53.966Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "diia-ai-decision-reliance-2025",
+      "source_type": "official Ministry of Digital Transformation survey summary",
+      "source_url": "https://thedigital.gov.ua/news/education/42-doroslykh-i-70-pidlitkiv-korystuiutsia-shi-v-ukrayini-rezultaty-doslidzennia-diiaosvita",
+      "title": "42% дорослих і 70% підлітків користуються ШІ в Україні: результати дослідження Дія.Освіта",
+      "claim": "The Ministry reports that in its 2025 fourth digital-skills study, 42% of adults used AI tools and half of surveyed adults had at least once made a decision based on interaction with AI. This is a broad reliance signal, not model-quality or task-performance evidence.",
+      "accessed_at": "2026-09-22T09:07:05.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
