@@ -320,6 +320,36 @@
       "accessed_at": "2026-09-22T09:07:05.000Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-gemini-slides-ukrainian-route",
+      "source_type": "official Google Workspace product and language documentation",
+      "source_url": "https://workspace.google.com/intl/uk/resources/presentation-ai/",
+      "title": "AI for Google Slides",
+      "claim": "Google documents Gemini in Slides for slide, image, summary, and Drive-file work; its current language list separately includes Ukrainian for the Slides side panel and image generation/editing but not for Improve your content.",
+      "accessed_at": "2026-09-23T09:10:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "microsoft-copilot-powerpoint-ukrainian-limit",
+      "source_type": "official Microsoft Support FAQ",
+      "source_url": "https://support.microsoft.com/uk-ua/office/%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B9-%D0%B2%D1%96%D0%B4%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D1%96-%D0%BF%D1%80%D0%BE-copilot-%D0%B2-powerpoint-3e229188-9086-4f4c-9f9f-824cd25ae84f",
+      "title": "Copilot in PowerPoint FAQ",
+      "claim": "Microsoft documents PowerPoint file and access requirements, expects highest quality in English, officially supports Design Suggestions only for en-US, and asks users to review AI suggestions.",
+      "accessed_at": "2026-09-23T09:10:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "diia-presentation-workflow-context",
+      "source_type": "official educational exercise",
+      "source_url": "https://it-osvita.diia.gov.ua/task/item/c07a99fe-8ad0-4d9e-8146-b9d7b3a08c90",
+      "title": "Diia.Osvita IT studio: presentation exercise",
+      "claim": "The exercise instructs learners to give a detailed prompt, select a template, and manually adjust an AI-created presentation; it is workflow context, not a tool-quality comparison.",
+      "accessed_at": "2026-09-23T09:10:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

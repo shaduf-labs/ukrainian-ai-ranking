@@ -143,6 +143,17 @@
       "summary": "Додано UNLP-маршрут для повторюваного EN→UK фахового перекладу: у вузькому приватному corpus retrieval прикладів покращив метрики, але надлишковий контекст зашкодив меншій моделі. Висновок не перетворено на рейтинг чатів.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/20/domain-reference-before-model/",
       "entrypoint": "research/2026/09/20/domain-reference-before-model/index.html"
+    },
+    {
+      "run_id": "run:69f1c2cf-b340-4c3a-b921-46bf58323461",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-23T09:00:00.000Z",
+      "completed_at": "2026-09-23T09:10:00.000Z",
+      "title": "Українська презентація: обирайте середовище файла, а не абстрактного переможця",
+      "summary": "Додано документований маршрут Google Slides versus PowerPoint для української презентації та перевірку готового файла; незалежного рейтингу якості не знайдено.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/23/ukrainian-presentation-route/",
+      "entrypoint": "research/2026/09/23/ukrainian-presentation-route/index.html"
     }
   ]
 }
