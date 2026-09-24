@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:425712e5-152c-475d-bbcb-a0a582a4bc9e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-24T09:00:00.000Z",
+      "completed_at": "2026-09-24T09:09:25.000Z",
+      "title": "Питання до українських PDF: локальний маршрут — це пілот, не підписка",
+      "summary": "Додано вузький маршрут для запитань до пакета українських PDF: UNLP 2026 вимірював відповідь разом із документом і сторінкою, а друге місце опублікувало локальний RAG-код. Це технічний пілот, не рейтинг чатів або готовий сервіс.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/24/local-document-qa-route/",
+      "entrypoint": "research/2026/09/24/local-document-qa-route/index.html"
+    },
+    {
       "run_id": "run:eb11179d-b796-42f7-b626-032e12a97b94",
       "status": "completed",
       "answer_change": "no_meaningful_change",

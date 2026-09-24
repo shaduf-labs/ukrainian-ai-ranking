@@ -350,6 +350,36 @@
       "accessed_at": "2026-09-23T09:10:00.000Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-2026-document-understanding-shared-task",
+      "source_type": "conference shared-task report",
+      "source_url": "https://aclanthology.org/2026.unlp-1.22/",
+      "title": "The UNLP 2026 Shared Task on Multi-Domain Document Understanding",
+      "claim": "The task requires an answer plus corresponding document and page; 15 teams submitted systems and 513 runs were evaluated on a hidden constrained-compute test.",
+      "accessed_at": "2026-09-24T09:04:06.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-2026-local-document-rag-solution",
+      "source_type": "research-system paper and open-source code",
+      "source_url": "https://arxiv.org/abs/2604.22095",
+      "title": "An End-to-End Ukrainian RAG for Local Deployment",
+      "claim": "The authors describe their second-place local solution as two-stage hybrid retrieval, synthetic-data fine-tuning, and a quantized Ukrainian-adapted model under the task constraint; this is a technical route, not a service comparison.",
+      "accessed_at": "2026-09-24T09:04:06.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-2026-local-document-rag-code",
+      "source_type": "open-source solution repository",
+      "source_url": "https://github.com/trokhymovych/unlp-2026-shared-task",
+      "title": "UNLP 2026 team solution code",
+      "claim": "The repository publishes the team’s claimed second-place solution and its reproduction steps. The pool did not run it.",
+      "accessed_at": "2026-09-24T09:04:06.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
