@@ -15,7 +15,7 @@
     <meta property="og:description" content="Тексти, листи, переклад і перевірка української мови.">
     <meta property="og:url" content="https://shaduf.ai/p/ukrainian-ai-ranking/use-cases/writing/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Написати й відредагувати","description":"Тексти, листи, переклад і перевірка української мови.","dateModified":"2026-09-24T09:04:06.000Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/use-cases/writing/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Написати й відредагувати","description":"Тексти, листи, переклад і перевірка української мови.","dateModified":"2026-09-25T09:12:20.000Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/ukrainian-ai-ranking/use-cases/writing/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Рейтинг AI для української мови updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_ukrainian_ai_ranking" data-page-id="writing">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -57,11 +57,12 @@
     <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><main lang="uk">
-  <header><p>Практика: текст · оновлено 21 вересня 2026</p><h1>Український лист: чернетка й вичитка — це різні вибори</h1><p>Для генерації відкритий UkrQualBench ставить <code>claude-opus-5</code> першим (1785,1 ELO, серпень 2026). Для minimal-edit вичитки окреме UNLP-дослідження дає найвищий API-результат конфігурації <code>Gemini 3.1-Pro</code> — F0.5 69,22. Жоден рядок не є твердженням про вашу теперішню підписку або готовий лист.</p></header>
+  <header><p>Практика: текст · оновлено 25 вересня 2026</p><h1>Український лист: чернетка й вичитка — це різні вибори</h1><p>Для генерації відкритий UkrQualBench ставить <code>claude-opus-5</code> першим (1785,1 ELO, серпень 2026). Для minimal-edit вичитки окреме UNLP-дослідження дає найвищий API-результат конфігурації <code>Gemini 3.1-Pro</code> — F0.5 69,22. Жоден рядок не є твердженням про вашу теперішню підписку або готовий лист.</p></header>
   <ol>
     <li><strong>Зафіксуйте факти.</strong> Випишіть адресата, мету, суму, строк, назви й те, чого не можна вигадувати.</li>
     <li><strong>Візьміть модельний орієнтир.</strong> Порівняйте <a href="https://github.com/grayodesa/ukrqualbench"><code>claude-opus-5</code>, Gemini та інші точні ідентифікатори в таблиці</a>, але перевірте, що ваш сервіс справді показує потрібну модель.</li>
     <li><strong>Попросіть чернетку.</strong> Дайте задачу українською та вимогу: «Якщо даних бракує — познач пропуск, не вигадуй». Назвіть бажаний тон і заборонені формулювання.</li>
+    <li><strong>Не називайте мітку рівня перевіркою зрозумілості.</strong> Якщо текст має бути доступним для учня, клієнта чи громадянина, назвіть читача, мету й те, що не можна втратити: строк, суму, право, умову або дію. У <a href="https://aclanthology.org/2026.unlp-1.18/">UNLP 2026</a> найкращий класифікатор CEFR-рівня для українських навчальних текстів A1–B2 має macro-F1 0,576, а GPT-5.5 — 0,564. Це класифікація визначеного корпусу, не тест переписування чи вашого адресата. Порівняйте готову коротку версію зі списком незмінних елементів.</li>
     <li><strong>Позначте важливу ідіому окремо.</strong> Якщо джерельний англійський рядок містить сталий вираз, назвіть його в запиті й попросіть природний український відповідник, а не буквальний переклад. У <a href="https://aclanthology.org/2026.unlp-1.5.pdf">SimIdioms</a> це додало <code>Gemini 2.5 Flash</code> 0,161 бала в EN→UK тесті; результат стосується ідіом і моделі в статті, не всіх сервісів. Прочитайте готовий рядок разом із сусіднім реченням.</li>
     <li><strong>Для фахового перекладу дайте перевірену опору.</strong> Якщо ви регулярно перекладаєте технічні, юридичні або продуктні терміни, підготуйте погоджений глосарій чи кілька перевірених двомовних прикладів. Передавайте їх лише в сервіс, дозволений для такого матеріалу. У <a href="https://aclanthology.org/2026.unlp-1.1/">вузькому UNLP-дослідженні</a> доменні приклади поліпшили виміряний переклад, але не зробили більше контексту автоматично кращим: це приватний юридично-військовому корпус, не рейтинг чатів. У готовому тексті звірте кожен термін із погодженим варіантом.</li>
     <li><strong>Закріпіть терміни у маршруті, а не лише в чаті.</strong> Для повторюваного EN→UK тексту <a href="https://support.deepl.com/hc/en-us/articles/360021634540-About-the-glossary">DeepL документує</a> український глосарій для тексту й файлів. У безкоштовному режимі записи лишаються в одному браузері; перевірте план, дані й усі готові терміни перед роботою. Це документована функція, не виміряний переможець перекладу.</li>
@@ -89,7 +90,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>24 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 09:00 UTC</dd></div><div><dt>Latest research</dt><dd>25 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Документація, опубліковані бенчмарки, незалежні порівняння та змістовні відгуки з датами й версіями.</dd></div><div><dt>Language</dt><dd>UK</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Зіставляємо якість української за конкретними задачами, ціни, обмеження й ручну доопрацюваність; відділяємо заяви від перевірок.</p><a href="../../index.html">Full pool information →</a></section>
     </div>

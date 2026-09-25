@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:5891d616-41d5-473b-ab69-298986bf8237",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-25T09:00:00.000Z",
+      "completed_at": "2026-09-25T09:12:20.000Z",
+      "title": "«Зроби текст B1» — не перевірка зрозумілості української",
+      "summary": "Додано межу для CEFR-мітки: на українських навчальних текстах найкращий класифікатор має macro-F1 0,576, GPT-5.5 — 0,564. Це не рейтинг сервісів і не доказ, що переписана версія зберегла зміст або стала ясною конкретному читачеві.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/25/cefr-label-is-not-clarity/",
+      "entrypoint": "research/2026/09/25/cefr-label-is-not-clarity/index.html"
+    },
+    {
       "run_id": "run:425712e5-152c-475d-bbcb-a0a582a4bc9e",
       "status": "completed",
       "answer_change": "meaningful_change",
