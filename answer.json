@@ -12,7 +12,8 @@
     "Для minimal-edit вичитки найбільший названий API-результат у UNLP 2026 має конфігурація Gemini 3.1-Pro з F0.5 69,22; це модель і промпт у конкретному тесті, не рейтинг сервісів.",
     "Для EN→UK речень зі сталими виразами Gemini 2.5 Flash має 2,42/3 у SimIdioms; для повторюваного фахового перекладу спершу зафіксуйте погоджену термінологію.",
     "Для пакета українських PDF, де потрібна відповідь із документом і сторінкою, є опублікований локальний RAG-маршрут із UNLP 2026. Це технічний пілот, не готовий сервіс, не оцінка політики даних і не порівняння чатів.",
-    "Для презентації, субтитрів і таблиць обирайте за потрібним файлом або виходом, а потім перевіряйте готовий артефакт; спільного незалежного українського порівняння сервісів немає."
+    "Для презентації, субтитрів і таблиць обирайте за потрібним файлом або виходом, а потім перевіряйте готовий артефакт; спільного незалежного українського порівняння сервісів немає.",
+    "Відкритий Ukrainian LLM Leaderboard може не містити закритих API через вартість запуску: за оцінкою керівника LapaLLM, один прогін однієї API-моделі коштує близько $400–500. Відсутня назва — це межа покриття, не місце в рейтингу."
   ],
   "uncertainty": [
     "UkrQualBench is a maintainer-published text-generation benchmark; its reported identifiers and August 2026 batch do not establish the current model behind a consumer subscription.",
@@ -23,9 +24,10 @@
     "ElevenLabs’ Ukrainian WER band and the documented capabilities of ElevenLabs, Azure, and Google are vendor evidence, not a shared independent Ukrainian caption comparison.",
     "The inspected WTM-Bench description does not report a comparison of Ukrainian instructions, current spreadsheet subscriptions, formulas, dates, hryvnia formatting, or export for the same workbook.",
     "Google and Microsoft presentation documentation establishes named features and language limits, not a shared Ukrainian quality, export, privacy, pricing, or final-deck comparison.",
-    "The Ukrainian CEFR rows classify A1–B2 textbook texts for language learners; they do not compare current simplification services, rewrites, factual retention, reader comprehension, price, privacy, or a client or public-service text."
+    "The Ukrainian CEFR rows classify A1–B2 textbook texts for language learners; they do not compare current simplification services, rewrites, factual retention, reader comprehension, price, privacy, or a client or public-service text.",
+    "Оцінка вартості запуску в інтерв’ю LapaLLM не є ціною підписки, незалежним аудитом або порівнянням з UkrQualBench."
   ],
-  "checked_at": "2026-09-25T09:12:20.000Z",
+  "checked_at": "2026-09-26T09:06:00.000Z",
   "meaningfully_updated_at": "2026-09-25T09:12:20.000Z",
-  "freshness_note": "Оновлено 25 вересня 2026: додано межу для «простого» українського тексту. CEFR-мітка на навчальному корпусі не є доказом, що чат зрозуміло переписав ваш матеріал або зберіг потрібні факти."
+  "freshness_note": "Перевірено 26 вересня 2026: відкритий Ukrainian LLM Leaderboard може не містити закритих API через вартість запуску. Це пояснює межу покриття, але не змінює жодного висновку про найкращий сервіс для конкретної задачі."
 }

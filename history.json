@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:3a73f65b-996b-4451-af2d-febe58bd1aab",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-09-26T09:00:00.000Z",
+      "completed_at": "2026-09-26T09:06:00.000Z",
+      "title": "Відсутність моделі в українському лідерборді ще не означає нижче місце",
+      "summary": "Додано конкретну межу покриття відкритого Ukrainian LLM Leaderboard та ще один технічний маршрут для запитань до PDF. Жодного готового сервісу не названо переможцем без однакового тесту.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/26/benchmark-coverage-is-not-service-access/",
+      "entrypoint": "research/2026/09/26/benchmark-coverage-is-not-service-access/index.html"
+    },
+    {
       "run_id": "run:5891d616-41d5-473b-ab69-298986bf8237",
       "status": "completed",
       "answer_change": "meaningful_change",

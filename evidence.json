@@ -380,6 +380,26 @@
       "accessed_at": "2026-09-24T09:04:06.000Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "lapallm-closed-api-coverage",
+      "source_type": "DOU interview with LapaLLM project lead",
+      "source_url": "https://dou.ua/lenta/interviews/lapallm-paniv/",
+      "title": "Чому Gemma знає українську краще за інших та коли лусне бульбашка LLM",
+      "claim": "The project lead says the open Ukrainian LLM Leaderboard excludes closed API models because one API-model run costs about US$400–500; this is a coverage limit, not a service rank.",
+      "accessed_at": "2026-09-26T09:06:00.000Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unlp-local-rag-compute-tradeoff",
+      "source_type": "UNLP 2026 conference paper",
+      "source_url": "https://aclanthology.org/2026.unlp-1.21/",
+      "title": "RAG Pipeline Strategies for Ukrainian Multi-Domain Document Understanding Task",
+      "claim": "A third-place shared-task system reports stronger compute-intensive document-level augmentation and a lighter summary-based configuration; it is a technical route, not a ready-service comparison.",
+      "accessed_at": "2026-09-26T09:06:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
