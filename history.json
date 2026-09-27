@@ -187,6 +187,17 @@
       "summary": "Додано документований маршрут Google Slides versus PowerPoint для української презентації та перевірку готового файла; незалежного рейтингу якості не знайдено.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/23/ukrainian-presentation-route/",
       "entrypoint": "research/2026/09/23/ukrainian-presentation-route/index.html"
+    },
+    {
+      "run_id": "run:3d4dd531-b052-4dbe-ac1a-f3e5a695602a",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-27T09:00:00.000Z",
+      "completed_at": "2026-09-27T09:05:37.000Z",
+      "title": "Українські субтитри: вихід для YouTube чи монтажу",
+      "summary": "Додано доступний маршрут YouTube Studio для власного відео й межу редагованих текстових шарів; точність сервісів на одному українському аудіо лишається невідомою.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/27/ukrainian-captions-editable-output/",
+      "entrypoint": "research/2026/09/27/ukrainian-captions-editable-output/index.html"
     }
   ]
 }

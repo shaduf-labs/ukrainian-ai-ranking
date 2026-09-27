@@ -400,6 +400,36 @@
       "accessed_at": "2026-09-26T09:06:00.000Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "youtube-auto-captions-uk",
+      "source_type": "official service documentation",
+      "source_url": "https://support.google.com/youtube/answer/6373554?hl=uk",
+      "title": "YouTube automatic captions",
+      "claim": "YouTube lists Ukrainian for automatic captions on uploaded long-form videos and Shorts, with processing and audio limitations; live automatic captions are English-only.",
+      "accessed_at": "2026-09-27T09:04:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "youtube-edit-caption-track",
+      "source_type": "official service documentation",
+      "source_url": "https://support.google.com/youtube/answer/2734705?hl=en-GB",
+      "title": "YouTube Studio caption editing",
+      "claim": "Studio supports caption text and timing edits, duplication of an automatic track, and downloading the caption file.",
+      "accessed_at": "2026-09-27T09:04:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "dou-editable-caption-workflow",
+      "source_type": "first-person practitioner account",
+      "source_url": "https://dou.ua/forums/topic/58540/",
+      "title": "Editable caption layers in one design team",
+      "claim": "One marketing design lead reports that rendered captions made correction expensive in her team’s workflow; their custom After Effects plugin kept captions as editable text layers.",
+      "accessed_at": "2026-09-27T09:04:00.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
