@@ -198,6 +198,17 @@
       "summary": "Додано доступний маршрут YouTube Studio для власного відео й межу редагованих текстових шарів; точність сервісів на одному українському аудіо лишається невідомою.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/27/ukrainian-captions-editable-output/",
       "entrypoint": "research/2026/09/27/ukrainian-captions-editable-output/index.html"
+    },
+    {
+      "run_id": "run:511dfe76-e64f-4569-a63d-8b7738c610e8",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-28T09:00:00.000Z",
+      "completed_at": "2026-09-28T09:10:01.110Z",
+      "title": "YouTube: мова відео, субтитри й дубляж — різні перевірки",
+      "summary": "Додано контроль мови оригіналу й межі автоматичного дубляжу для власного каналу. Це не рейтинг точності українських сервісів.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/28/youtube-language-caption-dub-check/",
+      "entrypoint": "research/2026/09/28/youtube-language-caption-dub-check/index.html"
     }
   ]
 }

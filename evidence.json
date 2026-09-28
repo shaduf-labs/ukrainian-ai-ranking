@@ -430,6 +430,36 @@
       "accessed_at": "2026-09-27T09:04:00.000Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "youtube-original-language-setting-2026-09-28",
+      "source_type": "official platform help",
+      "source_url": "https://support.google.com/youtube/answer/6304325?hl=uk",
+      "title": "Як змінити мову завантаженого відео",
+      "claim": "Власник може змінити мову оригіналу; це впливає на майбутні перекладені субтитри, але не вже додані субтитри чи чернетки.",
+      "accessed_at": "2026-09-28T09:08:20.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "youtube-auto-dubbing-uk-2026-09-28",
+      "source_type": "official platform help",
+      "source_url": "https://support.google.com/youtube/answer/15569972?hl=uk",
+      "title": "Як використовувати автоматичний дубляж",
+      "claim": "Документовано напрямки українська→англійська й англійська→українська, змінну доступність, ручний перегляд і неможливість редагувати автоматичний звук.",
+      "accessed_at": "2026-09-28T09:08:20.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "dou-final-audio-check-2026-09-28",
+      "source_type": "first-person practitioner account",
+      "source_url": "https://dou.ua/forums/topic/62130/",
+      "title": "Як я змусив ШІ-агента перетворити 60 ГБ вражень на фільм",
+      "claim": "Один автор описав перевірку змонтованого аудіо повторним розпізнаванням і прослуховуванням місць, де губилися слова.",
+      "accessed_at": "2026-09-28T09:08:20.000Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
