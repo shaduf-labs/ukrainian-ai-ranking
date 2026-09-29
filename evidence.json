@@ -460,6 +460,36 @@
       "accessed_at": "2026-09-28T09:08:20.000Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-sheets-ai-function-scope-2026-09-29",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.google.com/docs/answer/15877199?hl=en",
+      "title": "Use the AI function in Google Sheets",
+      "claim": "AI function uses an explicit range rather than the whole workbook or Drive; documented refresh and 350-cell selection limits.",
+      "accessed_at": "2026-09-29T09:05:46.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-spreadsheet-addins-2026-09-29",
+      "source_type": "vendor documentation",
+      "source_url": "https://help.openai.com/en/articles/20001063-chatgpt-for-excel-and-google-sheets",
+      "title": "ChatGPT for Excel and Google Sheets",
+      "claim": "Separate spreadsheet add-ins have plan/admin access conditions, isolated chat history and documented formula/macro review limits.",
+      "accessed_at": "2026-09-29T09:05:46.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "microsoft-excel-modes-2026-09-29",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.microsoft.com/uk-ua/excel/copilot/frequently-asked-questions-about-copilot-in-excel",
+      "title": "Copilot in Excel FAQ",
+      "claim": "Excel Copilot has plan, edit and chat modes; Ukrainian is listed with a non-English quality warning; model choice is session-only and gated by plan.",
+      "accessed_at": "2026-09-29T09:05:46.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

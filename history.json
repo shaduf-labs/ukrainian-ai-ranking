@@ -209,6 +209,17 @@
       "summary": "Додано контроль мови оригіналу й межі автоматичного дубляжу для власного каналу. Це не рейтинг точності українських сервісів.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/28/youtube-language-caption-dub-check/",
       "entrypoint": "research/2026/09/28/youtube-language-caption-dub-check/index.html"
+    },
+    {
+      "run_id": "run:bc682018-51d3-4867-8457-fc2eef400ca2",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-29T09:00:00.000Z",
+      "completed_at": "2026-09-29T09:06:51.444Z",
+      "title": "У таблиці одна клітинка чи ціла книга? Це різні маршрути ШІ",
+      "summary": "Уточнено межі Google Sheets AI function, ChatGPT add-ins і Excel Copilot для української таблиці; спільного тесту цілісності немає.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/29/sheets-range-versus-workbook/",
+      "entrypoint": "research/2026/09/29/sheets-range-versus-workbook/index.html"
     }
   ]
 }
