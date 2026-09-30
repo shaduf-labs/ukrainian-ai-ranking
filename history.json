@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:28c7d143-3bec-4bee-b0a6-3d099d22baac",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-30T09:00:00.000Z",
+      "completed_at": "2026-09-30T09:14:51.070Z",
+      "title": "ШІ переклав посаду? Перевірте рід у всьому реченні",
+      "summary": "Додано вузькі результати EAMT 2026 для EN→UK назв професій, межі метрики та перевірку узгодження перед надсиланням. Це не рейтинг готових сервісів.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/09/30/gender-in-translation-needs-a-check/",
+      "entrypoint": "research/2026/09/30/gender-in-translation-needs-a-check/index.html"
+    },
+    {
       "run_id": "run:3a73f65b-996b-4451-af2d-febe58bd1aab",
       "status": "completed",
       "answer_change": "no_meaningful_change",

@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-09-30-occupation-gender-translation-check",
+      "changed_at": "2026-09-30T09:14:51.070Z",
+      "summary": "Додано вузьку таблицю EAMT 2026 для роду в EN→UK назвах професій і коротку перевірку готового тексту; це дослідницькі конвеєри, не рейтинг підписок.",
+      "path": "/p/ukrainian-ai-ranking/rating/text/"
+    },
+    {
       "change_id": "2026-09-29-sheets-range-versus-workbook",
       "changed_at": "2026-09-29T09:05:46.000Z",
       "summary": "Уточнено вибір для української таблиці: Sheets =AI() працює із заданим діапазоном, ChatGPT має надбудови для Excel/Sheets, а Copilot у Excel — режими плану, чату й редагування. Додано умови доступу й перевірку фінального файла без вигаданого рейтингу якості.",

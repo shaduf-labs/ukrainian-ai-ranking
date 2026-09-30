@@ -490,6 +490,16 @@
       "accessed_at": "2026-09-29T09:05:46.000Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "eamt-2026-occupation-gender",
+      "source_type": "conference paper",
+      "source_url": "https://aclanthology.org/2026.eamt-1.14.pdf",
+      "title": "Mitigating Gender Bias in English-Ukrainian Machine Translation Models",
+      "claim": "Table 2 reports occupation-sentence gender-label accuracy for OPUS-MT and mBART with and without Lapa correction; Table 6 shows persistent female-source failures.",
+      "accessed_at": "2026-09-30T09:14:51.070Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
