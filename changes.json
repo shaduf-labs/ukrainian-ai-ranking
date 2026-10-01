@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-01-buzzasr-read-speech-boundary",
+      "changed_at": "2026-10-01T12:08:39.700Z",
+      "summary": "Додано прямі українські WER/CER-рядки BuzzASR для читаного аудіо та перевірку джерельного звуку перед протоколом; це не рейтинг зустрічей чи сервісів.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
       "change_id": "2026-09-30-occupation-gender-translation-check",
       "changed_at": "2026-09-30T09:14:51.070Z",
       "summary": "Додано вузьку таблицю EAMT 2026 для роду в EN→UK назвах професій і коротку перевірку готового тексту; це дослідницькі конвеєри, не рейтинг підписок.",

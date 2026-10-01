@@ -500,6 +500,36 @@
       "accessed_at": "2026-09-30T09:14:51.070Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "buzzasr-paper-ukrainian-asr-2026",
+      "source_type": "research paper",
+      "source_url": "https://arxiv.org/html/2609.09554v1",
+      "title": "BuzzASR: A Swarm of 100+ Monolingual Speech Recognition Models, arXiv v1",
+      "claim": "Appendix J reports normalized Ukrainian CER and WER on one combined FLEURS+Common Voice 25 test for Whisper-large-v3 and BuzzASR variants; read speech only.",
+      "accessed_at": "2026-10-01T12:08:39.700Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "buzzasr-card-metric-boundary",
+      "source_type": "model card",
+      "source_url": "https://huggingface.co/BuzzASR/ukrainian",
+      "title": "BuzzASR/ukrainian",
+      "claim": "The released simple-fine-tuned Ukrainian checkpoint card reports a different combined Whisper CER baseline from paper Appendix J; the two figures are not merged.",
+      "accessed_at": "2026-10-01T12:08:39.700Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "dou-meeting-audio-output-boundary",
+      "source_type": "first-person practitioner account",
+      "source_url": "https://dou.ua/forums/topic/60983/",
+      "title": "A DOU account of meeting-note workflow failures",
+      "claim": "One team reports near-silent audio, a hallucinated transcript, and a false AI meeting summary; this is a single account, not a frequency estimate.",
+      "accessed_at": "2026-10-01T12:08:39.700Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

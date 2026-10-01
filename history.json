@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:04062309-1db3-4ea0-b26f-d8f1a95e2c40",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-01T12:03:00.000Z",
+      "completed_at": "2026-10-01T12:09:19.154Z",
+      "title": "Український ASR: донавчена модель не обов’язково точніша за Whisper",
+      "summary": "Додано один зіставний набір WER/CER для локальних моделей і межу для клієнтських зустрічей; джерельне аудіо перевіряйте до протоколу.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/01/buzzasr-ukrainian-read-speech-boundary/",
+      "entrypoint": "research/2026/10/01/buzzasr-ukrainian-read-speech-boundary/index.html"
+    },
+    {
       "run_id": "run:28c7d143-3bec-4bee-b0a6-3d099d22baac",
       "status": "completed",
       "answer_change": "meaningful_change",
