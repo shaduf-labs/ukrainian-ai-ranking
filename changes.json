@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-02-ukrainian-meeting-notes-platform-gap",
+      "changed_at": "2026-10-02T09:28:00.000Z",
+      "summary": "Додано вибір для українського протоколу зустрічі: Teams Intelligent recap документує українську за умов ліцензії та транскрипції; у Meet українські живі субтитри не означають збережених нотаток. Це не рейтинг точності.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
       "change_id": "2026-10-01-buzzasr-read-speech-boundary",
       "changed_at": "2026-10-01T12:08:39.700Z",
       "summary": "Додано прямі українські WER/CER-рядки BuzzASR для читаного аудіо та перевірку джерельного звуку перед протоколом; це не рейтинг зустрічей чи сервісів.",

@@ -530,6 +530,46 @@
       "accessed_at": "2026-10-01T12:08:39.700Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:microsoft-teams-intelligent-recap-ukrainian",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.microsoft.com/en-us/teams/meetings/recap-in-microsoft-teams",
+      "title": "Microsoft Teams recap help",
+      "claim": "Current documented Ukrainian meeting feature availability, not measured accuracy.",
+      "accessed_at": "2026-10-02T09:28:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-meet-transcript-languages-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.google.com/meet/answer/12849897?co=GENIE.Platform%3DDesktop&hl=uk",
+      "title": "Google Meet transcript languages",
+      "claim": "Current documented Ukrainian meeting feature availability, not measured accuracy.",
+      "accessed_at": "2026-10-02T09:28:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-meet-take-notes-languages-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.google.com/meet/answer/14754931",
+      "title": "Google Meet Take notes for me languages",
+      "claim": "Current documented Ukrainian meeting feature availability, not measured accuracy.",
+      "accessed_at": "2026-10-02T09:28:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-meet-live-caption-languages-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.google.com/meet/answer/15077804?hl=en-PW",
+      "title": "Google Meet live caption languages",
+      "claim": "Current documented Ukrainian meeting feature availability, not measured accuracy.",
+      "accessed_at": "2026-10-02T09:28:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

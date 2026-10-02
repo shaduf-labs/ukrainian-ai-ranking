@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:b032a7ef-f4ec-4988-aad1-abcec3ec7024",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-02T09:00:00.000Z",
+      "completed_at": "2026-10-02T09:28:00.000Z",
+      "title": "Українські субтитри в Meet — не готовий протокол",
+      "summary": "Порівняно документовані українські виходи Teams і Google Meet для підсумку зустрічі; точність не виміряно.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/02/ukrainian-meeting-notes-platform-gap/",
+      "entrypoint": "research/2026/10/02/ukrainian-meeting-notes-platform-gap/index.html"
+    },
+    {
       "run_id": "run:04062309-1db3-4ea0-b26f-d8f1a95e2c40",
       "status": "completed",
       "answer_change": "meaningful_change",
