@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:5020c6f7-bf9a-43a1-8bc4-e7587c70c0b1",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-03T09:00:00.000Z",
+      "completed_at": "2026-10-03T09:07:30.000Z",
+      "title": "Zoom для українського протоколу: підсумок, VTT і бот — різні маршрути",
+      "summary": "Додано документований український ШІ-підсумок і окремий VTT Zoom, а також межі бота для Meet/Teams; точність не виміряно.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/03/zoom-ukrainian-meeting-output/",
+      "entrypoint": "research/2026/10/03/zoom-ukrainian-meeting-output/index.html"
+    },
+    {
       "run_id": "run:b032a7ef-f4ec-4988-aad1-abcec3ec7024",
       "status": "completed",
       "answer_change": "meaningful_change",

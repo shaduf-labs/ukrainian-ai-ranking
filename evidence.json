@@ -570,6 +570,46 @@
       "accessed_at": "2026-10-02T09:28:00.000Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:zoom-ai-meeting-summary-ukrainian",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0078144",
+      "title": "Supported languages for Zoom AI features",
+      "claim": "Zoom lists Ukrainian for Meeting summary, which generates a summary and next steps; availability is not a quality result.",
+      "accessed_at": "2026-10-03T09:04:04.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:zoom-ai-meeting-summary-use",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013",
+      "title": "Using Meeting Summary with AI",
+      "claim": "Meeting summary requires an eligible paid plan and enablement; host starts it, and retained transcript is a separate option.",
+      "accessed_at": "2026-10-03T09:04:04.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:zoom-ukrainian-cloud-vtt",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064927",
+      "title": "Using audio transcription for cloud recordings",
+      "claim": "Eligible cloud recordings can produce an editable Ukrainian VTT transcript, subject to recording and transcription settings.",
+      "accessed_at": "2026-10-03T09:04:04.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:zoom-ai-third-party-meetings",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0080354",
+      "title": "Using AI Companion in third-party meetings",
+      "claim": "Eligible users can invite a visible Zoom AI Companion participant into Meet or Teams for transcript and summary; language quality there is not independently stated.",
+      "accessed_at": "2026-10-03T09:04:04.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
