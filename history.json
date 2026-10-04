@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:6773532a-2945-41c3-bd49-378272d76486",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-04T09:00:00.000Z",
+      "completed_at": "2026-10-04T09:06:33Z",
+      "title": "Протокол готовий — але кому він піде?",
+      "summary": "Порівняно налаштування одержувачів для Zoom, Teams і Meet без претензії на український рейтинг точності.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/04/meeting-note-recipient-check/",
+      "entrypoint": "research/2026/10/04/meeting-note-recipient-check/index.html"
+    },
+    {
       "run_id": "run:5020c6f7-bf9a-43a1-8bc4-e7587c70c0b1",
       "status": "completed",
       "answer_change": "meaningful_change",

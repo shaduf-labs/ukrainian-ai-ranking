@@ -610,6 +610,36 @@
       "accessed_at": "2026-10-03T09:04:04.000Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:zoom-summary-sharing-controls-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057960",
+      "title": "Zoom Meeting summary settings",
+      "claim": "Automatic summary recipients can include original invitees, not every attendee; admin auto-start and data controls exist.",
+      "accessed_at": "2026-10-04T09:05:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-meet-note-recipient-controls-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.google.com/meet/answer/14754931",
+      "title": "Google Meet Take notes for me",
+      "claim": "Invitee sharing exists for supported languages, but Ukrainian AI notes are not listed.",
+      "accessed_at": "2026-10-04T09:05:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:teams-recap-external-share-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://learn.microsoft.com/en-us/microsoftteams/intelligent-recap-calls-meetings",
+      "title": "Microsoft Teams Intelligent recap",
+      "claim": "External recap sharing is a separate user action under plan and policy conditions.",
+      "accessed_at": "2026-10-04T09:05:00.000Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
