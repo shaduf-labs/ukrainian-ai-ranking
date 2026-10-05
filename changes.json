@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-05-ukrainian-meeting-note-editability",
+      "changed_at": "2026-10-05T09:09:29Z",
+      "summary": "Додано Teams Facilitator як окремий український маршрут редагованих внутрішніх нотаток; порівняно його обмеження із Zoom-розсилкою до правки. Це не рейтинг точності.",
+      "path": "/p/ukrainian-ai-ranking/rating/business/"
+    },
+    {
       "change_id": "meeting-note-recipient-check-2026-10-04",
       "changed_at": "2026-10-04T09:05:00.000Z",
       "summary": "Додано перевірку одержувачів ШІ-протоколу: Zoom може автоматично ділитися з початково запрошеними; Teams має окрему дію для зовнішніх учасників. Це функції доступу, не рейтинг точності.",

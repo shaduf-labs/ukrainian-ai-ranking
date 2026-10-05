@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:94039943-1291-447f-946d-591eb248498f",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-05T09:00:00.000Z",
+      "completed_at": "2026-10-05T09:11:09Z",
+      "title": "Український протокол: хто може виправити нотатки до розсилання?",
+      "summary": "Додано редаговані Teams Facilitator нотатки й обмеження зовнішніх та двомовних зустрічей; Zoom може розіслати підсумок до пізнішої правки ведучого.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/05/meeting-note-editability/",
+      "entrypoint": "research/2026/10/05/meeting-note-editability/index.html"
+    },
+    {
       "run_id": "run:6773532a-2945-41c3-bd49-378272d76486",
       "status": "completed",
       "answer_change": "meaningful_change",

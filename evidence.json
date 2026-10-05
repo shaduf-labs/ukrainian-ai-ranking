@@ -640,6 +640,46 @@
       "accessed_at": "2026-10-04T09:05:00.000Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:facilitator-faq-ukrainian-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.microsoft.com/en-gb/teams/platform/frequently-asked-questions-about-agents-in-microsoft-teams",
+      "title": "Microsoft Teams agents FAQ",
+      "claim": "Microsoft lists Ukrainian for Facilitator and says external participants cannot access its notes.",
+      "accessed_at": "2026-10-05T09:09:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:facilitator-admin-limits-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://learn.microsoft.com/en-us/MicrosoftTeams/facilitator-teams",
+      "title": "Set up Facilitator in Microsoft Teams",
+      "claim": "Facilitator needs eligible Copilot, Teams, Microsoft 365 and Loop access; external meetings and mixed-language notes are limited.",
+      "accessed_at": "2026-10-05T09:09:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:facilitator-howto-editable-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.microsoft.com/en-us/teams/copilot/facilitator-in-microsoft-teams-meetings",
+      "title": "Facilitator in Microsoft Teams meetings",
+      "claim": "Meeting participants can edit Loop notes and accept suggested tasks into Planner.",
+      "accessed_at": "2026-10-05T09:09:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:zoom-summary-edit-after-share-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013",
+      "title": "Using Meeting Summary with AI",
+      "claim": "Zoom may email meeting summaries after the call; only the host edits. A later edit is not an established pre-send approval gate.",
+      "accessed_at": "2026-10-05T09:09:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
