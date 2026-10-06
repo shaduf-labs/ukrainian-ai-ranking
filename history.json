@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:2105076d-deaa-4e9d-83e1-f795053318cd",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-06T09:00:00.000Z",
+      "completed_at": "2026-10-06T09:09:59Z",
+      "title": "96% для судових рішень — не прогноз вашої справи",
+      "summary": "Додано сім модельних результатів прогнозу за фактами; відокремлено іншу класифікацію рішень і названо перевірне джерело.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/06/legal-outcome-metric-trap/",
+      "entrypoint": "research/2026/10/06/legal-outcome-metric-trap/index.html"
+    },
+    {
       "run_id": "run:94039943-1291-447f-946d-591eb248498f",
       "status": "completed",
       "answer_change": "meaningful_change",

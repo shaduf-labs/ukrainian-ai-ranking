@@ -2,6 +2,46 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "ua-legal-bench-2026",
+      "source_type": "author preprint",
+      "source_url": "https://arxiv.org/pdf/2605.29170",
+      "title": "UA-Legal-Bench",
+      "claim": "Seven named frontier models have outcome-prediction macro-F1 rows under zero-shot and 3-shot conditions on 800 Ukrainian decision fact sections, with the ruling masked.",
+      "accessed_at": "2026-10-06T09:09:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ukrainian-legal-fertility-2026",
+      "source_type": "author preprint",
+      "source_url": "https://arxiv.org/pdf/2605.14890",
+      "title": "Tokenizer Fertility and Zero-Shot Performance on Ukrainian Legal Text",
+      "claim": "Nemotron Super 3 outcome-classification accuracy is 96.0% on 273 validated completed decisions; this is not the masked-outcome task.",
+      "accessed_at": "2026-10-06T09:09:25Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "unba-ai-discipline-2026",
+      "source_type": "professional association publication",
+      "source_url": "https://unba.org.ua/publications/12096-disciplinarni-aspekti-vikoristannya-shi-advokatom.html",
+      "title": "NAUU: disciplinary aspects of AI use",
+      "claim": "Professional use requires verification of source decisions, citations and confidential-data handling.",
+      "accessed_at": "2026-10-06T09:09:25Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "supreme-court-legal-search-2026",
+      "source_type": "official court notice",
+      "source_url": "https://supreme.court.gov.ua/supreme/pres-centr/news/2066643/",
+      "title": "Supreme Court legal-position search",
+      "claim": "The court describes searchable legal positions, reviews and digests with a route to source texts.",
+      "accessed_at": "2026-10-06T09:09:25Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "ukrqualbench-august-2026",
       "source_type": "maintainer-published benchmark repository and leaderboard",
       "source_url": "https://github.com/grayodesa/ukrqualbench",
