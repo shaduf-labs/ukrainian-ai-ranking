@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-07-ukrainian-voice-number-trap",
+      "changed_at": "2026-10-07T09:06:00Z",
+      "summary": "Додано шортлист українського озвучення Google Cloud, Azure та ElevenLabs; вимову чисел винесено в перевірку готового звуку.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
       "change_id": "2026-10-06-legal-outcome-metric-trap",
       "changed_at": "2026-10-06T09:09:25Z",
       "summary": "Додано сім модельних рядків UA-Legal-Bench за macro-F1 прогнозу за фактами; відокремлено 96,0% класифікації вже ухваленого рішення та маршрут перевірки першоджерела.",

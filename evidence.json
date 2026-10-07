@@ -2,6 +2,46 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:mdf-media-audience-budget-and-audio",
+      "source_type": "primary survey",
+      "source_url": "https://ai-in-ukrainian-local-media-research.mediadevelopmentfoundation.org/",
+      "title": "MDF Ukrainian media AI study",
+      "claim": "MDF Research Lab surveyed 40 regional and niche Ukrainian newsrooms in May-June 2026. It reports 85% use AI for text work, 60% lack funding for paid tools, 85% prioritize practical training, and audio AI use centers on transcription while synthesis is rare. This is a bounded sample, not the Ukrainian population or the pool audience.",
+      "accessed_at": "2026-10-07T09:06:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:elevenlabs-ukrainian-tts-number-boundary",
+      "source_type": "vendor documentation",
+      "source_url": "https://elevenlabs.io/docs/overview/models",
+      "title": "ElevenLabs model documentation",
+      "claim": "ElevenLabs lists Ukrainian for eleven_multilingual_v2, eleven_flash_v2_5 and eleven_v4. Its model guide says Flash v2.5 does not normalize numbers by default as expected and dates/currencies may be affected; Multilingual v2 handles numbers better per vendor. This is vendor documentation, not an independently measured Ukrainian error rate.",
+      "accessed_at": "2026-10-07T09:06:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:azure-ukrainian-tts-voices",
+      "source_type": "vendor documentation",
+      "source_url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=stt",
+      "title": "Azure Speech language support",
+      "claim": "Azure Speech lists uk-UA-PolinaNeural and uk-UA-OstapNeural as standard Ukrainian TTS voices; this documents two voices, not a comparative quality or pricing result.",
+      "accessed_at": "2026-10-07T09:06:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-gemini-tts-ukrainian-route",
+      "source_type": "vendor documentation",
+      "source_url": "https://docs.cloud.google.com/text-to-speech/docs/gemini-tts",
+      "title": "Google Cloud Gemini-TTS",
+      "claim": "Google Cloud lists uk-UA as GA for Gemini-TTS and lists gemini-2.5-flash-tts as a single/multi-speaker Cloud TTS model with several audio formats; this documents a technical synthesis route, not Ukrainian naturalness or consumer Gemini availability.",
+      "accessed_at": "2026-10-07T09:06:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "ua-legal-bench-2026",
       "source_type": "author preprint",
       "source_url": "https://arxiv.org/pdf/2605.29170",
