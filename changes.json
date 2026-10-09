@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-08-scanned-pdf-ocr-gate",
+      "changed_at": "2026-10-08T09:06:55Z",
+      "summary": "Додано перевірку текстового шару й OCR перед відповіддю з українського PDF: 5–7 годин в одному UNLP-конвеєрі, не рейтинг сервісів.",
+      "path": "/p/ukrainian-ai-ranking/rating/business/"
+    },
+    {
       "change_id": "2026-10-07-ukrainian-voice-number-trap",
       "changed_at": "2026-10-07T09:06:00Z",
       "summary": "Додано шортлист українського озвучення Google Cloud, Azure та ElevenLabs; вимову чисел винесено в перевірку готового звуку.",

@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:9d2d4676-6f1f-4a34-959e-3590eabe5835",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-08T09:00:00Z",
+      "completed_at": "2026-10-08T09:06:55Z",
+      "title": "PDF зі скану: спершу перевірте текст, потім обирайте ШІ",
+      "summary": "Додано межу OCR в одному українському UNLP-конвеєрі та перевірку скану перед пошуком відповіді чи записом у облік.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/08/scanned-pdf-ocr-gate/",
+      "entrypoint": "research/2026/10/08/scanned-pdf-ocr-gate/index.html"
+    },
+    {
       "run_id": "run:7b8564f7-9368-44e8-9da8-497782f64956",
       "status": "completed",
       "answer_change": "meaningful_change",

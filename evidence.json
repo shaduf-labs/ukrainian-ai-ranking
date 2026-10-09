@@ -2,6 +2,36 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:ukrainian-pdf-ocr-runtime",
+      "source_type": "author preprint",
+      "source_url": "https://arxiv.org/abs/2609.22124",
+      "title": "Havrylov UNLP 2026 document system",
+      "claim": "In Havrylov’s UNLP 2026 Ukrainian multi-domain document QA system, sequential Tesseract OCR of scanned PDFs consumed 5–7 hours of a nine-hour offline run on the hidden set, leaving about two hours for 500 questions. The author reports a 0.8095 private score and 10th place among 15 teams. These are one team’s constrained-pipeline observations, not an OCR accuracy comparison or a service benchmark.",
+      "accessed_at": "2026-10-08T09:06:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:ukrainian-finance-agent-approval",
+      "source_type": "first-person practitioner account",
+      "source_url": "https://dou.ua/forums/topic/62396/",
+      "title": "DOU fractional CFO agent account",
+      "claim": "A Ukrainian fractional CFO’s first-person DOU account says a Claude Code-based internal finance agent manages 30 of 40 month-end checklist points in one company but book entries require explicit human approval of a specific plan. The account describes backups before each change and a human role in payments, judgment, audits and sign-off. This is a self-report about one configured system, not a measured product benchmark.",
+      "accessed_at": "2026-10-08T09:06:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:ukrainian-accounting-scan-question",
+      "source_type": "community question",
+      "source_url": "https://pro1c.org.ua/topic/rozpiznavannya-tekstu-ocr-z-zanesennyam-dokumentiv-v-bas-67674/",
+      "title": "BAS scanned-document OCR question",
+      "claim": "A 2024 Ukrainian BAS forum poster asked for OCR of scanned paper invoices, acts and delivery notes into an incoming-document database. Later replies propose products, but these are vendor or peer claims rather than tests. This is one historic demand example, not market size.",
+      "accessed_at": "2026-10-08T09:06:55Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:mdf-media-audience-budget-and-audio",
       "source_type": "primary survey",
       "source_url": "https://ai-in-ukrainian-local-media-research.mediadevelopmentfoundation.org/",
