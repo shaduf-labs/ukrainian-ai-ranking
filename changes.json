@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-10-historical-ukrainian-ocr-scope",
+      "changed_at": "2026-10-10T09:05:00Z",
+      "summary": "Додано чотири зіставні CER/WER-рядки UNLP для 152 карток староукраїнського рукопису та окрему межу для GPT-5.4 на 30 картках; сучасні PDF не оцінено.",
+      "path": "/p/ukrainian-ai-ranking/rating/text/"
+    },
+    {
       "change_id": "2026-10-08-scanned-pdf-ocr-gate",
       "changed_at": "2026-10-08T09:06:55Z",
       "summary": "Додано перевірку текстового шару й OCR перед відповіддю з українського PDF: 5–7 годин в одному UNLP-конвеєрі, не рейтинг сервісів.",

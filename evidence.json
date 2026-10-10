@@ -2,6 +2,26 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:reddit-handwritten-letters-need",
+      "source_type": "first-person community question",
+      "source_url": "https://www.reddit.com/r/ukraine/comments/1t3pk1b/help_translating_handwritten_letters/",
+      "title": "Request to translate handwritten Ukrainian family letters",
+      "claim": "One poster offered to pay for help with Ukrainian cursive letters and feared AI fabrication; a reply suggested verifying a transcription before translation. One thread is not demand or tool-quality evidence.",
+      "accessed_at": "2026-10-10T09:05:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:unlp-2026-old-ukrainian-ocr-table",
+      "source_type": "peer-reviewed research paper",
+      "source_url": "https://aclanthology.org/2026.unlp-1.7.pdf",
+      "title": "UNLP 2026 historical Ukrainian OCR, Table 1",
+      "claim": "Four configurations on 152 proofread handwritten cards have CER 2.51%, 4.16%, 14.56%, and 14.84%; GPT-5.4 uses a separate 30-card split and should not be ranked in this table.",
+      "accessed_at": "2026-10-10T09:05:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:ukrainian-pdf-ocr-runtime",
       "source_type": "author preprint",
       "source_url": "https://arxiv.org/abs/2609.22124",

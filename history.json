@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:b26a490a-2f3f-4060-aae4-54eb558edf6e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-10T09:00:00Z",
+      "completed_at": "2026-10-10T09:06:30Z",
+      "title": "OCR староукраїнського рукопису: вузький модельний тест",
+      "summary": "Чотири моделі на 152 картках, окрема 30-карткова межа GPT-5.4 та перевірка орієнтації скану перед вибором.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/10/historical-ukrainian-ocr/",
+      "entrypoint": "research/2026/10/10/historical-ukrainian-ocr/index.html"
+    },
+    {
       "run_id": "run:9d2d4676-6f1f-4a34-959e-3590eabe5835",
       "status": "completed",
       "answer_change": "meaningful_change",
