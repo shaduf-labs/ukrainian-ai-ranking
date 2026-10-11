@@ -2,6 +2,26 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:parakeet-v3-model-card-ukrainian",
+      "source_type": "vendor model card",
+      "source_url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+      "title": "NVIDIA Parakeet TDT 0.6B v3 model card",
+      "claim": "Ukrainian, automatic language detection, timestamps and local technical runtime are documented; mixed-language meeting quality is not.",
+      "accessed_at": "2026-10-11T21:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:macwhisper-mixed-language-first-person",
+      "source_type": "first-person community report",
+      "source_url": "https://www.reddit.com/r/MacWhisper/comments/1s2nr7t/not_fully_satisfied_with_mixedlanguage/",
+      "title": "MacWhisper mixed-language transcription thread",
+      "claim": "One buyer still describes correction work after trying Parakeet v3 in Pro; no measured comparison is supplied.",
+      "accessed_at": "2026-10-11T21:22:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:reddit-handwritten-letters-need",
       "source_type": "first-person community question",
       "source_url": "https://www.reddit.com/r/ukraine/comments/1t3pk1b/help_translating_handwritten_letters/",
