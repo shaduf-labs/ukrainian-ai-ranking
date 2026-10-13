@@ -830,6 +830,26 @@
       "accessed_at": "2026-10-05T09:09:29Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:nikitin-code-mixed-asr-2026",
+      "source_type": "university thesis repository abstract",
+      "source_url": "https://ekmair.ukma.edu.ua/handle/123456789/40997",
+      "title": "Автоматичне транскрибування та ідентифікація у змішаному українсько-англійському мовленні",
+      "claim": "On 448 mixed Ukrainian-English IT clips, the abstract reports post-ITN WER of 0.105 for Gemini 3.1 Pro, 0.134 for Scribe v2 and 0.167 for Whisper large-v3-turbo; full method not inspected.",
+      "accessed_at": "2026-10-12T09:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:shepit-ukrainian-dictation-comparison-2026",
+      "source_type": "product-builder first-person test",
+      "source_url": "https://shepit.app/blog/choosing-a-speech-to-text-engine",
+      "title": "How I chose a speech-to-text engine",
+      "claim": "On 76 selected one-speaker Ukrainian dictations the maker reports wrong-language and lost-speech failures in tested configurations; not the university corpus or standard WER.",
+      "accessed_at": "2026-10-12T09:09:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

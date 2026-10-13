@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:e728b318-714a-4461-81c4-da7635758850",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-12T09:00:00Z",
+      "completed_at": "2026-10-12T09:10:30Z",
+      "title": "Змішане IT-аудіо: три WER-рядки й окремий тест диктування",
+      "summary": "На 448 змішаних IT-записах опубліковано WER для трьох класів моделей; окремий самотест диктування показує ризики втрати мовлення. Жоден не ранжує готові протоколи.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/12/mixed-audio-benchmark-and-dictation/",
+      "entrypoint": "research/2026/10/12/mixed-audio-benchmark-and-dictation/index.html"
+    },
+    {
       "run_id": "run:dfc5f141-431e-43d1-b34b-b92e7d205d53",
       "status": "completed",
       "answer_change": "meaningful_change",
