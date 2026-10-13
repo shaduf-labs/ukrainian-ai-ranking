@@ -59,7 +59,7 @@
     "Historical OCR comparison uses one 152-card corpus, a Claude-developed prompt and quantized Qwen builds; GPT-5.4 has only a separate 30-card test.",
     "Авторська картка корпусу доступна, але його аудіофайли вимагають згоди на умови й нами не прослухані; MacWhisper reports are individual and do not test Ukrainian quality."
   ],
-  "checked_at": "2026-10-13T09:08:00Z",
+  "checked_at": "2026-10-13T18:05:32.394Z",
   "meaningfully_updated_at": "2026-10-13T09:08:00Z",
   "freshness_note": "Перевірено 13 жовтня 2026. Уточнено: WER на змішаному IT-аудіо отримано з корпусу одного мовця; поділ спікерів і протокол він не перевіряє."
 }

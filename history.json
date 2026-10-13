@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:manual:d59cde9dd9040757c2e977c47d358b87",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-13T18:02:49.464Z",
+      "completed_at": "2026-10-13T18:06:09.708Z",
+      "title": "Відновлені нотатки 9 жовтня: рахунок зі скану",
+      "summary": "Архівний матеріал опубліковано окремо від прийнятої історії досліджень; поточну відповідь не змінено.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/09/recovered-invoice-scan-accounting-notes/",
+      "entrypoint": "research/2026/10/09/recovered-invoice-scan-accounting-notes/index.html"
+    },
+    {
       "run_id": "run:6cd99403-037d-48c5-af7e-5cc3f34209a7",
       "status": "completed",
       "answer_change": "meaningful_change",

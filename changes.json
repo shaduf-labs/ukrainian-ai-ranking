@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-13-recovered-invoice-notes",
+      "changed_at": "2026-10-13T18:02:49.464Z",
+      "summary": "Відновлено датовані нотатки 9 жовтня про OCR рахунків і BAS як архівний матеріал без нової перевірки чи рейтингу.",
+      "path": "/p/ukrainian-ai-ranking/research/2026/10/09/recovered-invoice-scan-accounting-notes/"
+    },
+    {
       "change_id": "single-speaker-it-asr-boundary-2026-10-13",
       "changed_at": "2026-10-13T09:08:00Z",
       "summary": "Уточнено, що 448 IT-уривків у WER-тесті записав один мовець; додано перевірку спікерів і виконавців для протоколу.",
