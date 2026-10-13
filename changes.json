@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "single-speaker-it-asr-boundary-2026-10-13",
+      "changed_at": "2026-10-13T09:08:00Z",
+      "summary": "Уточнено, що 448 IT-уривків у WER-тесті записав один мовець; додано перевірку спікерів і виконавців для протоколу.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
       "change_id": "2026-10-12-mixed-audio-benchmark-and-dictation",
       "changed_at": "2026-10-12T09:09:00Z",
       "summary": "Додано вузький WER-тест змішаного українсько-англійського IT-аудіо для трьох модельних маршрутів і окрему межу тесту диктування Shepit; це не рейтинг підписок.",

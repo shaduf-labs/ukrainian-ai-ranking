@@ -850,6 +850,36 @@
       "accessed_at": "2026-10-12T09:09:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:nikitin-uk-en-dataset-card-2026",
+      "source_type": "author dataset card",
+      "source_url": "https://huggingface.co/datasets/vnikitin/uk-en-code-mixed-asr-2h",
+      "title": "uk-en-code-mixed-asr-2h dataset card",
+      "claim": "The 448 clips were recorded by one male voice across 16 personas; no multi-speaker diarization is tested.",
+      "accessed_at": "2026-10-13T09:08:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:macwhisper-speaker-cap-report-2026",
+      "source_type": "first-person user report",
+      "source_url": "https://www.reddit.com/r/MacWhisper/comments/1wria88/speaker_recognition_in_152_suddenly_restricted_to/",
+      "title": "Speaker Recognition in 15.2 suddenly restricted to 8 Speakers",
+      "claim": "One user reports a speaker-count change in their meeting workflow; a reply promises an option, not a verified release.",
+      "accessed_at": "2026-10-13T09:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:macwhisper-recording-mode-speakers-2026",
+      "source_type": "first-person user report",
+      "source_url": "https://www.reddit.com/r/MacWhisper/comments/1tnirg0/feature_request_allow_reprocessing_completed_all/",
+      "title": "All System Audio speaker separation request",
+      "claim": "One user reports different speaker separation for in-room audio across recording modes.",
+      "accessed_at": "2026-10-13T09:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

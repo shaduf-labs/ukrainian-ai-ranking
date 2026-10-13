@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:6cd99403-037d-48c5-af7e-5cc3f34209a7",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-13T09:04:00Z",
+      "completed_at": "2026-10-13T09:10:45Z",
+      "title": "Один мовець у WER-корпусі: не рейтинг протоколів",
+      "summary": "Авторська картка уточнила склад 448-кліпового набору; для багатолюдного протоколу додано окрему перевірку спікерів і виконавців.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/13/it-asr-one-speaker-not-meeting/",
+      "entrypoint": "research/2026/10/13/it-asr-one-speaker-not-meeting/index.html"
+    },
+    {
       "run_id": "run:e728b318-714a-4461-81c4-da7635758850",
       "status": "completed",
       "answer_change": "meaningful_change",
