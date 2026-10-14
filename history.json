@@ -2,18 +2,18 @@
   "schema_version": "1.0.0",
   "runs": [
     {
-      "run_id": "run:manual:d59cde9dd9040757c2e977c47d358b87",
+      "run_id": "report-9dfec014ccd19c01a3287319",
       "status": "completed",
       "answer_change": "no_meaningful_change",
       "started_at": "2026-10-13T18:02:49.464Z",
       "completed_at": "2026-10-13T18:06:09.708Z",
       "title": "Відновлені нотатки 9 жовтня: рахунок зі скану",
       "summary": "Архівний матеріал опубліковано окремо від прийнятої історії досліджень; поточну відповідь не змінено.",
-      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/09/recovered-invoice-scan-accounting-notes/",
-      "entrypoint": "research/2026/10/09/recovered-invoice-scan-accounting-notes/index.html"
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/09/invoice-ocr-bas-notes/",
+      "entrypoint": "research/2026/10/09/invoice-ocr-bas-notes/index.html"
     },
     {
-      "run_id": "run:6cd99403-037d-48c5-af7e-5cc3f34209a7",
+      "run_id": "report-e4038dbaa0004a3d36eed87a",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-13T09:04:00Z",
@@ -24,7 +24,7 @@
       "entrypoint": "research/2026/10/13/it-asr-one-speaker-not-meeting/index.html"
     },
     {
-      "run_id": "run:e728b318-714a-4461-81c4-da7635758850",
+      "run_id": "report-fc8259dca86a9938f11b7b55",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-12T09:00:00Z",
@@ -35,7 +35,7 @@
       "entrypoint": "research/2026/10/12/mixed-audio-benchmark-and-dictation/index.html"
     },
     {
-      "run_id": "run:dfc5f141-431e-43d1-b34b-b92e7d205d53",
+      "run_id": "report-b2373fd36ea840f384f488a0",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-11T21:19:00Z",
@@ -46,7 +46,7 @@
       "entrypoint": "research/2026/10/11/mixed-language-local-transcription/index.html"
     },
     {
-      "run_id": "run:b26a490a-2f3f-4060-aae4-54eb558edf6e",
+      "run_id": "report-648cc59667282b6c839dfe39",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-10T09:00:00Z",
@@ -57,7 +57,7 @@
       "entrypoint": "research/2026/10/10/historical-ukrainian-ocr/index.html"
     },
     {
-      "run_id": "run:9d2d4676-6f1f-4a34-959e-3590eabe5835",
+      "run_id": "report-8a5e8b9de3e8a0c644faf8e7",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-08T09:00:00Z",
@@ -68,7 +68,7 @@
       "entrypoint": "research/2026/10/08/scanned-pdf-ocr-gate/index.html"
     },
     {
-      "run_id": "run:7b8564f7-9368-44e8-9da8-497782f64956",
+      "run_id": "report-1c32a43be4d7167e845f0396",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-07T09:00:00Z",
@@ -79,7 +79,7 @@
       "entrypoint": "research/2026/10/07/ukrainian-voice-number-trap/index.html"
     },
     {
-      "run_id": "run:2105076d-deaa-4e9d-83e1-f795053318cd",
+      "run_id": "report-65b5de7b1ed90dfddcae64da",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-06T09:00:00.000Z",
@@ -90,7 +90,7 @@
       "entrypoint": "research/2026/10/06/legal-outcome-metric-trap/index.html"
     },
     {
-      "run_id": "run:94039943-1291-447f-946d-591eb248498f",
+      "run_id": "report-a27dd020c1820caae905f238",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-05T09:00:00.000Z",
@@ -101,7 +101,7 @@
       "entrypoint": "research/2026/10/05/meeting-note-editability/index.html"
     },
     {
-      "run_id": "run:6773532a-2945-41c3-bd49-378272d76486",
+      "run_id": "report-3a2d42badbc5b824224c91fe",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-04T09:00:00.000Z",
@@ -112,7 +112,7 @@
       "entrypoint": "research/2026/10/04/meeting-note-recipient-check/index.html"
     },
     {
-      "run_id": "run:5020c6f7-bf9a-43a1-8bc4-e7587c70c0b1",
+      "run_id": "report-30cec48220d1559408090492",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-03T09:00:00.000Z",
@@ -123,7 +123,7 @@
       "entrypoint": "research/2026/10/03/zoom-ukrainian-meeting-output/index.html"
     },
     {
-      "run_id": "run:b032a7ef-f4ec-4988-aad1-abcec3ec7024",
+      "run_id": "report-556572e0dce9ff20c975a7ff",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-02T09:00:00.000Z",
@@ -134,7 +134,7 @@
       "entrypoint": "research/2026/10/02/ukrainian-meeting-notes-platform-gap/index.html"
     },
     {
-      "run_id": "run:04062309-1db3-4ea0-b26f-d8f1a95e2c40",
+      "run_id": "report-0158f0eabcdc564fbba0e805",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-01T12:03:00.000Z",
@@ -145,7 +145,7 @@
       "entrypoint": "research/2026/10/01/buzzasr-ukrainian-read-speech-boundary/index.html"
     },
     {
-      "run_id": "run:28c7d143-3bec-4bee-b0a6-3d099d22baac",
+      "run_id": "report-dcf9b0d410ec902026baa0a7",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-30T09:00:00.000Z",
@@ -156,7 +156,7 @@
       "entrypoint": "research/2026/09/30/gender-in-translation-needs-a-check/index.html"
     },
     {
-      "run_id": "run:3a73f65b-996b-4451-af2d-febe58bd1aab",
+      "run_id": "report-a0e7871bfac2f8181d677e2a",
       "status": "completed",
       "answer_change": "no_meaningful_change",
       "started_at": "2026-09-26T09:00:00.000Z",
@@ -167,7 +167,7 @@
       "entrypoint": "research/2026/09/26/benchmark-coverage-is-not-service-access/index.html"
     },
     {
-      "run_id": "run:5891d616-41d5-473b-ab69-298986bf8237",
+      "run_id": "report-f4a0a99bd04643a4040fe627",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-25T09:00:00.000Z",
@@ -178,7 +178,7 @@
       "entrypoint": "research/2026/09/25/cefr-label-is-not-clarity/index.html"
     },
     {
-      "run_id": "run:425712e5-152c-475d-bbcb-a0a582a4bc9e",
+      "run_id": "report-cf03002f955c662f6d968853",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-24T09:00:00.000Z",
@@ -189,7 +189,7 @@
       "entrypoint": "research/2026/09/24/local-document-qa-route/index.html"
     },
     {
-      "run_id": "run:eb11179d-b796-42f7-b626-032e12a97b94",
+      "run_id": "report-bbe6aa08f46ff2bee260ba0a",
       "status": "completed",
       "answer_change": "no_meaningful_change",
       "started_at": "2026-09-22T09:00:00.000Z",
@@ -200,7 +200,7 @@
       "entrypoint": "research/2026/09/22/decision-trail-before-ai/index.html"
     },
     {
-      "run_id": "run:441d295d-48e8-41e5-8f63-86f9ae525997",
+      "run_id": "report-894b353202f8942b98e4bd88",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-21T09:00:00.000Z",
@@ -211,7 +211,7 @@
       "entrypoint": "research/2026/09/21/translation-review-is-not-approval/index.html"
     },
     {
-      "run_id": "run:6ff7a622-b517-418b-9516-a797dd94b9f9",
+      "run_id": "report-750d24f60dd7749d92bbb5f9",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-12T20:48:00Z",
@@ -222,7 +222,7 @@
       "entrypoint": "research/2026/09/12/first-task-map/index.html"
     },
     {
-      "run_id": "run:manual:4700847bf7d7e40310d0b1724e20da3c",
+      "run_id": "report-4a5f905fcc6f690051870a4c",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-13T08:47:33Z",
@@ -233,7 +233,7 @@
       "entrypoint": "research/2026/09/13/substantive-ukrainian-leaderboard/index.html"
     },
     {
-      "run_id": "run:aded8530-54be-406f-ba04-dd5d20635fd8",
+      "run_id": "report-ddeea395d906eb5bca7f39c8",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-13T12:49:00Z",
@@ -244,7 +244,7 @@
       "entrypoint": "research/2026/09/13/dialect-caption-boundary/index.html"
     },
     {
-      "run_id": "run:3e82397c-1394-4be9-b5d9-c887b607476e",
+      "run_id": "report-5ace84dac9f7321400ce377e",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-14T09:00:00Z",
@@ -255,7 +255,7 @@
       "entrypoint": "research/2026/09/14/context-handoff-before-model/index.html"
     },
     {
-      "run_id": "run:3bae1770-6f08-4978-afaf-a6bf144c423c",
+      "run_id": "report-fdad2edeef6ce44754ff94fc",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-15T09:00:00Z",
@@ -266,7 +266,7 @@
       "entrypoint": "research/2026/09/15/proofreading-and-dialect-check/index.html"
     },
     {
-      "run_id": "run:0bf3fe51-8b78-46f3-9ca8-174d76f1ebaf",
+      "run_id": "report-dc2346af1a5e80004cfab2c6",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-16T09:00:00Z",
@@ -277,7 +277,7 @@
       "entrypoint": "research/2026/09/16/local-asr-checkpoints/index.html"
     },
     {
-      "run_id": "run:9786ecd0-47ac-4559-8880-7ce4bebe4997",
+      "run_id": "report-07e670290dc8b0e286794fc5",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-17T09:00:00Z",
@@ -288,7 +288,7 @@
       "entrypoint": "research/2026/09/17/caption-output-and-table-prep/index.html"
     },
     {
-      "run_id": "run:4b0e7a36-d22c-4837-8db7-1bbb4027ca6d",
+      "run_id": "report-82bd07797e254d91fd40bf53",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-18T09:00:00Z",
@@ -299,7 +299,7 @@
       "entrypoint": "research/2026/09/18/workbook-final-artifact-check/index.html"
     },
     {
-      "run_id": "run:manual:4563c30777c5e6f3cadcfc367095334f",
+      "run_id": "report-9ab97c117373daa0dde36672",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-18T09:50:53.919Z",
@@ -310,7 +310,7 @@
       "entrypoint": "research/2026/09/18/proofreading-diff-before-send/index.html"
     },
     {
-      "run_id": "run:0fb64a91-ca96-40be-9146-b1481d789adb",
+      "run_id": "report-51d45999807668ae291138ff",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-19T09:00:00.000Z",
@@ -321,7 +321,7 @@
       "entrypoint": "research/2026/09/19/idiom-translation-not-general-winner/index.html"
     },
     {
-      "run_id": "run:189921f9-35ec-4c29-af8b-9a035756af78",
+      "run_id": "report-bc6e860e80ef77910c16c8cb",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-20T09:00:00.000Z",
@@ -332,7 +332,7 @@
       "entrypoint": "research/2026/09/20/domain-reference-before-model/index.html"
     },
     {
-      "run_id": "run:69f1c2cf-b340-4c3a-b921-46bf58323461",
+      "run_id": "report-10181c8a608ece55eb38aea8",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-23T09:00:00.000Z",
@@ -343,7 +343,7 @@
       "entrypoint": "research/2026/09/23/ukrainian-presentation-route/index.html"
     },
     {
-      "run_id": "run:3d4dd531-b052-4dbe-ac1a-f3e5a695602a",
+      "run_id": "report-8982866a5a76e4413c294064",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-27T09:00:00.000Z",
@@ -354,7 +354,7 @@
       "entrypoint": "research/2026/09/27/ukrainian-captions-editable-output/index.html"
     },
     {
-      "run_id": "run:511dfe76-e64f-4569-a63d-8b7738c610e8",
+      "run_id": "report-7d138d381d983c7798bb6aa0",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-28T09:00:00.000Z",
@@ -365,7 +365,7 @@
       "entrypoint": "research/2026/09/28/youtube-language-caption-dub-check/index.html"
     },
     {
-      "run_id": "run:bc682018-51d3-4867-8457-fc2eef400ca2",
+      "run_id": "report-ac2496c25b3010832fbba36a",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-29T09:00:00.000Z",

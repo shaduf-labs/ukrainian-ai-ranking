@@ -2,10 +2,10 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "change_id": "2026-10-13-recovered-invoice-notes",
+      "change_id": "2026-10-13-invoice-ocr-bas-notes",
       "changed_at": "2026-10-13T18:02:49.464Z",
-      "summary": "Відновлено датовані нотатки 9 жовтня про OCR рахунків і BAS як архівний матеріал без нової перевірки чи рейтингу.",
-      "path": "/p/ukrainian-ai-ranking/research/2026/10/09/recovered-invoice-scan-accounting-notes/"
+      "summary": "Нотатки від 9 жовтня порівнюють OCR рахунків, витяг полів та інтеграцію з BAS. Межі джерел і неперевірені можливості вказано окремо; матеріал не встановлює поточну точність, вартість чи рейтинг.",
+      "path": "/p/ukrainian-ai-ranking/research/2026/10/09/invoice-ocr-bas-notes/"
     },
     {
       "change_id": "single-speaker-it-asr-boundary-2026-10-13",
