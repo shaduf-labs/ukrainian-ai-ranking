@@ -880,6 +880,36 @@
       "accessed_at": "2026-10-13T09:08:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:julius-start-guide-2026",
+      "source_type": "vendor product guide",
+      "source_url": "https://julius.ai/faq/chat-start-guide",
+      "title": "Julius Start Guide",
+      "claim": "Upload Excel/CSV or connect Sheets; analyze or transform data and request CSV/Excel export. This does not establish in-place workbook preservation.",
+      "accessed_at": "2026-10-14T09:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:julius-data-analysis-2026",
+      "source_type": "vendor product overview",
+      "source_url": "https://julius.ai/home/ai-for-data-analysis",
+      "title": "AI for Data Analysis",
+      "claim": "Julius says it can analyze Excel files with several tabs, but publishes no Ukrainian workbook-integrity comparison on this page.",
+      "accessed_at": "2026-10-14T09:10:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:unlp-2025-ukrainian-stress",
+      "source_type": "peer-reviewed research paper",
+      "source_url": "https://aclanthology.org/2025.unlp-1.11.pdf",
+      "title": "Context-Aware Lexical Stress Prediction and Phonemization for Ukrainian TTS Systems",
+      "claim": "On 1,026 annotated sentences, ByT5 G2P plus Ukrainian Word Stress (Skip) reports 52.0% sentence and 92.5% word accuracy; not a TTS-audio service score.",
+      "accessed_at": "2026-10-15T09:08:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

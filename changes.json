@@ -2,9 +2,21 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-15-ukrainian-stress-before-voice-choice",
+      "changed_at": "2026-10-15T09:08:12Z",
+      "summary": "Додано три зіставні результати UNLP 2025 для визначення наголосу; це не рейтинг звучання нинішніх голосів.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
+      "change_id": "2026-10-14-julius-upload-vs-workbook",
+      "changed_at": "2026-10-14T09:10:00Z",
+      "summary": "Додано Julius як окремий маршрут аналізу завантаженої копії CSV/Excel; він не отримує бал збереження формул чи якості української.",
+      "path": "/p/ukrainian-ai-ranking/rating/spreadsheets/"
+    },
+    {
       "change_id": "2026-10-13-invoice-ocr-bas-notes",
       "changed_at": "2026-10-13T18:02:49.464Z",
-      "summary": "Нотатки від 9 жовтня порівнюють OCR рахунків, витяг полів та інтеграцію з BAS. Межі джерел і неперевірені можливості вказано окремо; матеріал не встановлює поточну точність, вартість чи рейтинг.",
+      "summary": "Відновлено датовані нотатки 9 жовтня про OCR рахунків і BAS як архівний матеріал без нової перевірки чи рейтингу.",
       "path": "/p/ukrainian-ai-ranking/research/2026/10/09/invoice-ocr-bas-notes/"
     },
     {

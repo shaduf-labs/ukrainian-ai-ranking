@@ -2,6 +2,28 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-a493951059736cbec8193f8f",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-15T09:00:00Z",
+      "completed_at": "2026-10-15T09:08:45Z",
+      "title": "Наголос українського озвучення: алгоритми не є рейтингом голосів",
+      "summary": "Додано три результати UNLP 2025 для наголосу й коротку перевірку експортованого звуку.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/15/ukrainian-stress-before-voice-choice/",
+      "entrypoint": "research/2026/10/15/ukrainian-stress-before-voice-choice/index.html"
+    },
+    {
+      "run_id": "report-1add81d729282a88d1765722",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-14T09:00:00.000Z",
+      "completed_at": "2026-10-14T09:10:00Z",
+      "title": "Таблиця: редагувати чинну книгу чи аналізувати копію?",
+      "summary": "Julius додано як окремий маршрут завантаження, аналізу й експорту; українська якість і збереження книги не виміряні.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/14/upload-analysis-vs-workbook/",
+      "entrypoint": "research/2026/10/14/upload-analysis-vs-workbook/index.html"
+    },
+    {
       "run_id": "report-9dfec014ccd19c01a3287319",
       "status": "completed",
       "answer_change": "no_meaningful_change",
