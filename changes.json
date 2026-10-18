@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-17-long-ukrainian-tts-join-check",
+      "changed_at": "2026-10-18T01:28:25Z",
+      "summary": "Додано точні моделі Gemini-TTS і межу 8 192 токени на вхід; для довгої озвучки радимо перевірити стик, не оголошуючи переможця за якістю.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
       "change_id": "2026-10-15-ukrainian-stress-before-voice-choice",
       "changed_at": "2026-10-15T09:08:12Z",
       "summary": "Додано три зіставні результати UNLP 2025 для визначення наголосу; це не рейтинг звучання нинішніх голосів.",
@@ -245,6 +251,12 @@
       "change_id": "youtube-language-caption-dub-check",
       "changed_at": "2026-09-28T09:08:20.000Z",
       "summary": "Додано перевірку мови власного YouTube-відео, фактичних субтитрів і автоматичного дубляжу. Мова впливає на майбутні переклади, не виправляє вже додані субтитри; звуковий дубляж не редагується. Це не рейтинг точності.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
+      "change_id": "tts-pronunciation-control-2026",
+      "changed_at": "2026-10-16T09:14:30Z",
+      "summary": "Додано порівняння керування вимовою: Eleven v4 має фонемні правила IPA для української, Multilingual v2 — текстові заміни. Якість звуку не оцінювали.",
       "path": "/p/ukrainian-ai-ranking/rating/speech/"
     }
   ]

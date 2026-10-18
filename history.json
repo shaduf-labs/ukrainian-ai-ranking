@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-8aba95dfad3b76d4fa779a9f",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-18T01:19:00Z",
+      "completed_at": "2026-10-18T01:30:54Z",
+      "title": "Довга українська озвучка: перевірте стик",
+      "summary": "Уточнено межу входу Gemini 2.5 Flash/Pro TTS і перевірку готового довгого звуку без заяви про переможця.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/17/long-ukrainian-tts-join-check/",
+      "entrypoint": "research/2026/10/17/long-ukrainian-tts-join-check/index.html"
+    },
+    {
       "run_id": "report-a493951059736cbec8193f8f",
       "status": "completed",
       "answer_change": "meaningful_change",
@@ -396,6 +407,17 @@
       "summary": "Уточнено межі Google Sheets AI function, ChatGPT add-ins і Excel Copilot для української таблиці; спільного тесту цілісності немає.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/09/29/sheets-range-versus-workbook/",
       "entrypoint": "research/2026/09/29/sheets-range-versus-workbook/index.html"
+    },
+    {
+      "run_id": "report-27702dd61cfebba10a85d099",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-16T09:00:00Z",
+      "completed_at": "2026-10-16T09:14:30Z",
+      "title": "Як керувати вимовою назви в українському ШІ-голосі",
+      "summary": "Eleven v4 документує фонемні IPA-правила для української; Multilingual v2 — текстові заміни. Це не тест природності.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/16/eleven-v4-ukrainian-pronunciation-control/",
+      "entrypoint": "research/2026/10/16/eleven-v4-ukrainian-pronunciation-control/index.html"
     }
   ]
 }

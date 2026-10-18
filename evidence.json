@@ -2,6 +2,36 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:gemini-tts-production-report",
+      "source_type": "first-person forum report",
+      "source_url": "https://discuss.ai.google.dev/t/gemini-tts-gemini-3-1-flash-tts-in-production-voice-consistency-across-runs-long-input-cutoffs-accent-drift-emotional-range-guidance-roadmap/182191",
+      "title": "Gemini-TTS production thread",
+      "claim": "A multi-language production user reports cutoffs and changed voices across chunks; no Ukrainian sample or controlled comparison is supplied.",
+      "accessed_at": "2026-10-18T01:28:25Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gemini-tts-long-audio-boundary",
+      "source_type": "official documentation",
+      "source_url": "https://docs.cloud.google.com/text-to-speech/docs/create-audio-text-long-audio-synthesis",
+      "title": "Google Cloud Long Audio Synthesis",
+      "claim": "A separate Preview long-audio route uses a Standard-voice example; it does not demonstrate Gemini-TTS token-limit relief.",
+      "accessed_at": "2026-10-18T01:28:25Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gemini-tts-model-and-language-scope",
+      "source_type": "official documentation",
+      "source_url": "https://docs.cloud.google.com/text-to-speech/docs/gemini-tts",
+      "title": "Google Cloud Gemini-TTS models",
+      "claim": "Google documents uk-UA plus Flash and Pro TTS identifiers, speaker modes and 8,192 input tokens; it does not rank Ukrainian voices.",
+      "accessed_at": "2026-10-18T01:28:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:parakeet-v3-model-card-ukrainian",
       "source_type": "vendor model card",
       "source_url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
@@ -908,6 +938,46 @@
       "title": "Context-Aware Lexical Stress Prediction and Phonemization for Ukrainian TTS Systems",
       "claim": "On 1,026 annotated sentences, ByT5 G2P plus Ukrainian Word Stress (Skip) reports 52.0% sentence and 92.5% word accuracy; not a TTS-audio service score.",
       "accessed_at": "2026-10-15T09:08:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:tts-v4-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech/eleven-v4",
+      "title": "Eleven v4",
+      "claim": "Eleven v4 lists Ukrainian as a supported language and names model eleven_v4.",
+      "accessed_at": "2026-10-16T09:14:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:tts-dict-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/text-to-speech/pronunciation-dictionaries",
+      "title": "Pronunciation dictionaries",
+      "claim": "For IPA/CMU rules in non-English languages, ElevenLabs documentation directs users to eleven_v4.",
+      "accessed_at": "2026-10-16T09:14:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:tts-guide-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://elevenlabs.io/blog/pronunciation-dictionary-guide",
+      "title": "Pronunciation dictionary model comparison",
+      "claim": "ElevenLabs comparison lists Multilingual v2 as alias-only and Eleven v4 as phoneme-capable.",
+      "accessed_at": "2026-10-16T09:14:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:tts-languages-2026",
+      "source_type": "vendor documentation",
+      "source_url": "https://elevenlabs.io/docs/help-center/other/what-languages-do-you-support",
+      "title": "Supported languages",
+      "claim": "ElevenLabs lists Ukrainian for Multilingual v2.",
+      "accessed_at": "2026-10-16T09:14:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     }
