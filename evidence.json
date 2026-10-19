@@ -980,6 +980,36 @@
       "accessed_at": "2026-10-16T09:14:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:lexery-legal-task-comparison-2026",
+      "source_type": "vendor-run comparison",
+      "source_url": "https://lexery.com.ua/quality",
+      "title": "LEXERY legal tasks, results and method",
+      "claim": "16-task and 10-new-task legal scores as reported by the seller on 5 October 2026.",
+      "accessed_at": "2026-10-19T09:05:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:lexery-mkt-comparison-2026",
+      "source_type": "vendor-run comparison",
+      "source_url": "https://lexery.com.ua/quality",
+      "title": "LEXERY MKT-2022 model comparison",
+      "claim": "Reported 19/20 tie among LEXERY, GPT-6 Astra and Claude Opus 5.5 on 20 selected exam items.",
+      "accessed_at": "2026-10-19T09:05:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:uceqa-mkt-question-origin-2026",
+      "source_type": "official exam source",
+      "source_url": "https://testportal.gov.ua/demonstratsijnyj-variant-mkt-2022/",
+      "title": "UCEO MKT-2022 demonstration tasks",
+      "claim": "The examination authority publishes the source demonstration tasks, not AI scores.",
+      "accessed_at": "2026-10-19T09:05:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

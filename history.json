@@ -418,6 +418,17 @@
       "summary": "Eleven v4 документує фонемні IPA-правила для української; Multilingual v2 — текстові заміни. Це не тест природності.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/10/16/eleven-v4-ukrainian-pronunciation-control/",
       "entrypoint": "research/2026/10/16/eleven-v4-ukrainian-pronunciation-control/index.html"
+    },
+    {
+      "run_id": "report-abbe17e4972578d039e8b6d5",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-19T09:00:00Z",
+      "completed_at": "2026-10-19T09:07:53Z",
+      "title": "Юридичний ШІ: у новому тесті немає беззаперечного переможця",
+      "summary": "Самостійний тест LEXERY показує майже рівні загальні бали й перевагу GPT-6 Astra на 10 нових задачах; іспитовий тест окремий.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/19/legal-ai-vendor-benchmark-boundary/",
+      "entrypoint": "research/2026/10/19/legal-ai-vendor-benchmark-boundary/index.html"
     }
   ]
 }

@@ -258,6 +258,12 @@
       "changed_at": "2026-10-16T09:14:30Z",
       "summary": "Додано порівняння керування вимовою: Eleven v4 має фонемні правила IPA для української, Multilingual v2 — текстові заміни. Якість звуку не оцінювали.",
       "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
+      "change_id": "legal-vendor-benchmark-boundary-2026-10-19",
+      "changed_at": "2026-10-19T09:05:00Z",
+      "summary": "Додано шість учасників самостійного юридичного заміру LEXERY, окремі 16 і 10 задач, іспитові 19/20 та межу перенесення на консультацію.",
+      "path": "/p/ukrainian-ai-ranking/rating/business/"
     }
   ]
 }
