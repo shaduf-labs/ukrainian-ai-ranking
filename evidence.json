@@ -1010,6 +1010,76 @@
       "accessed_at": "2026-10-19T09:05:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:azure-di-v4-uk-printed-handwriting-2026",
+      "source_type": "документація постачальника",
+      "source_url": "https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/language-support/ocr?view=doc-intel-4.0.0",
+      "title": "Microsoft Document Intelligence v4 language support",
+      "claim": "Українська uk є в списках друкованого OCR для prebuilt-read і prebuilt-layout, але не в їхніх списках рукописного тексту. Виявлення української мови перелічено окремо.",
+      "accessed_at": "2026-10-20T09:04:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:rukopys-public-initiative-2026",
+      "source_type": "урядове повідомлення",
+      "source_url": "https://www.kmu.gov.ua/news/rukopys-v-ukraini-stvoryly-pershyi-dataset-dlia-rozpiznavannia-rukopysu-ta-zapuskaiut-ai-rishennia-dlia-derzhavy",
+      "title": "RUKOPYS handwriting dataset announcement",
+      "claim": "Описано розмічений корпус українського рукопису й заплановану роботу з документами; це не доступний сервіс із перевіреною точністю.",
+      "accessed_at": "2026-10-20T09:04:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-document-ai-processor-split",
+      "source_type": "документація постачальника",
+      "source_url": "https://docs.cloud.google.com/document-ai/docs/processors-list",
+      "title": "Google Document AI processor list",
+      "claim": "Українська є у списках Enterprise Document OCR і Form Parser, але відсутня у списку мов готового Invoice Parser. Це не вимір точності вилучення полів.",
+      "accessed_at": "2026-10-21T09:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:aws-textract-language-limit",
+      "source_type": "документація постачальника",
+      "source_url": "https://docs.aws.amazon.com/textract/latest/dg/limits-document.html",
+      "title": "Amazon Textract limits",
+      "claim": "Textract перелічує шість мов текстового розпізнавання без української; рукопис підтримується лише англійською.",
+      "accessed_at": "2026-10-21T09:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:local-llm-ua-10-news-review",
+      "source_type": "першоджерело: авторський тест",
+      "source_url": "https://github.com/MaiklUA/local-llm-benchmark-ua",
+      "title": "Local LLM Benchmark — Ukrainian news generation, May 2026",
+      "claim": "На 10 новинах у CPU-конфігурації автора gemma3:4b має 4,65/5 ручної оцінки; порівняння стосується цього завдання й конфігурації.",
+      "accessed_at": "2026-10-22T09:04:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:local-llm-ua-firsthand-decision",
+      "source_type": "перший особистий досвід",
+      "source_url": "https://www.reddit.com/r/technology_ua/comments/1tk3yse/",
+      "title": "Firsthand local-model decision for a Ukrainian news bot",
+      "claim": "Автор описує 8 ГБ, 4 CPU, без GPU, попередню модель бота та помилки змісту; це один досвід, не оцінка попиту.",
+      "accessed_at": "2026-10-22T09:04:40Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:mamaylm-v2-not-in-may-test",
+      "source_type": "картка моделі",
+      "source_url": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0",
+      "title": "MamayLM v2.0 12B model card",
+      "claim": "MamayLM v2.0 12B — окрема українсько-адаптована модель, відсутня у травневому CPU-тесті; її не можна ранжувати за тією таблицею.",
+      "accessed_at": "2026-10-22T09:04:40Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

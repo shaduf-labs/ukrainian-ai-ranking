@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-21-invoice-ocr-vs-parser",
+      "changed_at": "2026-10-21T09:08:00Z",
+      "summary": "Уточнено: Google Document AI перелічує українську для загального OCR, але не для готового Invoice Parser; Textract її не перелічує. Додано таблицю документованих маршрутів без оцінок точності.",
+      "path": "/p/ukrainian-ai-ranking/rating/business/"
+    },
+    {
       "change_id": "2026-10-17-long-ukrainian-tts-join-check",
       "changed_at": "2026-10-18T01:28:25Z",
       "summary": "Додано точні моделі Gemini-TTS і межу 8 192 токени на вхід; для довгої озвучки радимо перевірити стик, не оголошуючи переможця за якістю.",
@@ -264,6 +270,18 @@
       "changed_at": "2026-10-19T09:05:00Z",
       "summary": "Додано шість учасників самостійного юридичного заміру LEXERY, окремі 16 і 10 задач, іспитові 19/20 та межу перенесення на консультацію.",
       "path": "/p/ukrainian-ai-ranking/rating/business/"
+    },
+    {
+      "change_id": "printed-versus-handwritten-ocr-2026-10-20",
+      "changed_at": "2026-10-20T09:04:00Z",
+      "summary": "Уточнено межу Azure Document Intelligence v4.0: українська є в списках друкованого Read/Layout, але не рукописного. Додано перевірку рукописних полів перед обліком без вигаданого бала точності.",
+      "path": "/p/ukrainian-ai-ranking/rating/business/"
+    },
+    {
+      "change_id": "local-ukrainian-news-cpu-2026-10-22",
+      "changed_at": "2026-10-22T09:04:40Z",
+      "summary": "Додано п’ять ручних оцінок локальних моделей на 10 українських новинах, швидкість на 4 CPU та межі авторського тесту.",
+      "path": "/p/ukrainian-ai-ranking/rating/text/"
     }
   ]
 }

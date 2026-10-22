@@ -420,6 +420,17 @@
       "entrypoint": "research/2026/10/16/eleven-v4-ukrainian-pronunciation-control/index.html"
     },
     {
+      "run_id": "report-c3d1a5bb950bcbb6ab253d39",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-18T09:04:00Z",
+      "completed_at": "2026-10-18T09:08:46Z",
+      "title": "Довга українська озвучка: Audiobooks і IPA",
+      "summary": "Додано документований маршрут редагування абзаців і межу суперечливої документації щодо українського IPA; якість голосу не виміряно.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/18/audiobooks-long-ukrainian-voice/",
+      "entrypoint": "research/2026/10/18/audiobooks-long-ukrainian-voice/index.html"
+    },
+    {
       "run_id": "report-abbe17e4972578d039e8b6d5",
       "status": "completed",
       "answer_change": "meaningful_change",
@@ -429,6 +440,39 @@
       "summary": "Самостійний тест LEXERY показує майже рівні загальні бали й перевагу GPT-6 Astra на 10 нових задачах; іспитовий тест окремий.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/10/19/legal-ai-vendor-benchmark-boundary/",
       "entrypoint": "research/2026/10/19/legal-ai-vendor-benchmark-boundary/index.html"
+    },
+    {
+      "run_id": "report-5ebcccb3a4c785bf59f956b6",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-20T09:00:00Z",
+      "completed_at": "2026-10-20T09:06:00Z",
+      "title": "Український скан: друк і рукопис потребують різної перевірки",
+      "summary": "Azure v4 документує українську для друкованого Read/Layout, але не перелічує її для рукопису; точності на сучасних сканах не вимірювали.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/20/printed-versus-handwritten-ocr/",
+      "entrypoint": "research/2026/10/20/printed-versus-handwritten-ocr/index.html"
+    },
+    {
+      "run_id": "report-0b4f8ff47faea59f8488d252",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-21T09:00:00Z",
+      "completed_at": "2026-10-21T09:09:00Z",
+      "title": "Український рахунок: OCR не означає готові поля",
+      "summary": "Google Document AI документує українську для загального OCR і Form Parser, але не для Invoice Parser; Amazon Textract українську не перелічує. Це порівняння покриття, не точності.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/21/ukrainian-invoice-ocr-is-not-parser/",
+      "entrypoint": "research/2026/10/21/ukrainian-invoice-ocr-is-not-parser/index.html"
+    },
+    {
+      "run_id": "report-a37ec49c7be7917e7eefc527",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-22T09:00:00Z",
+      "completed_at": "2026-10-22T09:08:30Z",
+      "title": "Локальна модель для українських новинних дописів на 8 ГБ",
+      "summary": "У травневому авторському CPU-тесті gemma3:4b мала найвищу ручну оцінку на 10 новинах. Це вузький результат, не рейтинг чатів.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/22/local-ukrainian-news-models-on-cpu/",
+      "entrypoint": "research/2026/10/22/local-ukrainian-news-models-on-cpu/index.html"
     }
   ]
 }
