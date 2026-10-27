@@ -2,6 +2,46 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:google-full-deck-english-only",
+      "source_type": "official documentation",
+      "source_url": "https://support.google.com/docs/answer/17111393?hl=en-419",
+      "title": "Google full presentation generation help",
+      "claim": "The dedicated full-presentation generation feature is documented as desktop and English only, despite broader Ukrainian side-panel support.",
+      "accessed_at": "2026-10-27T11:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-single-slide-english-only",
+      "source_type": "official documentation",
+      "source_url": "https://support.google.com/docs/answer/16961475?hl=uk",
+      "title": "Google generate slide help",
+      "claim": "Dedicated new-slide generation help says the feature is desktop and English only.",
+      "accessed_at": "2026-10-27T11:13:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:microsoft-copilot-ukrainian-support",
+      "source_type": "official documentation",
+      "source_url": "https://support.microsoft.com/en-us/microsoft-365-copilot/supported-languages-for-microsoft-365-copilot",
+      "title": "Microsoft Copilot supported languages",
+      "claim": "Ukrainian is listed for Copilot prompts and output; this is not an independent presentation quality test.",
+      "accessed_at": "2026-10-27T11:13:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:dou-training-template-workflow",
+      "source_type": "first-person account",
+      "source_url": "https://dou.ua/forums/topic/62171/",
+      "title": "DOU corporate training workflow",
+      "claim": "One L&D practitioner reports a brief and brand template feeding AI-generated decks, with self-estimated time savings for presentations and manuals combined; no tool or controlled Ukrainian result is given.",
+      "accessed_at": "2026-10-27T11:13:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:gemini-tts-production-report",
       "source_type": "first-person forum report",
       "source_url": "https://discuss.ai.google.dev/t/gemini-tts-gemini-3-1-flash-tts-in-production-voice-consistency-across-runs-long-input-cutoffs-accent-drift-emotional-range-guidance-roadmap/182191",

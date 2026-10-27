@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "2026-10-27-slides-ukrainian-feature-gate",
+      "changed_at": "2026-10-27T11:13:00Z",
+      "summary": "Уточнено: українська мова панелі Google Slides не означає доступ до окремої англомовної функції генерації повної презентації; додано вибір без купівлі тарифу та перевірку готового файла.",
+      "path": "/p/ukrainian-ai-ranking/rating/business/"
+    },
+    {
       "change_id": "2026-10-21-invoice-ocr-vs-parser",
       "changed_at": "2026-10-21T09:08:00Z",
       "summary": "Уточнено: Google Document AI перелічує українську для загального OCR, але не для готового Invoice Parser; Textract її не перелічує. Додано таблицю документованих маршрутів без оцінок точності.",
