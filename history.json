@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-d7a6eb1fdd1bc293f17e0881",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-28T09:00:00Z",
+      "completed_at": "2026-10-28T09:14:38Z",
+      "title": "Gamma для української презентації: спочатку перевірте PPTX",
+      "summary": "Gamma документує багатомовну генерацію та PPTX, 400 разових Free-кредитів і ризик заміни шрифтів у Google Slides. Українські слайди не тестували.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/28/gamma-ukrainian-pptx-handoff/",
+      "entrypoint": "research/2026/10/28/gamma-ukrainian-pptx-handoff/index.html"
+    },
+    {
       "run_id": "report-85818d6fbdd71c0bf3a2f605",
       "status": "completed",
       "answer_change": "meaningful_change",

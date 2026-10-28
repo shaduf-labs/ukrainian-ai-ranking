@@ -1120,6 +1120,46 @@
       "accessed_at": "2026-10-22T09:04:40Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gamma-language",
+      "source_type": "довідка постачальника",
+      "source_url": "https://help.gamma.app/en/articles/11016506-how-do-i-use-gamma-in-my-preferred-language",
+      "title": "Gamma language help",
+      "claim": "Gamma documents generation from a chosen-language prompt but does not name Ukrainian in the inspected guide.",
+      "accessed_at": "2026-10-28T09:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gamma-export",
+      "source_type": "довідка постачальника",
+      "source_url": "https://help.gamma.app/en/articles/8022861-what-s-the-easiest-way-to-export-my-gamma",
+      "title": "Gamma export help",
+      "claim": "PPTX export is documented; Google Slides can substitute fonts from imported PPTX.",
+      "accessed_at": "2026-10-28T09:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gamma-credits",
+      "source_type": "довідка постачальника",
+      "source_url": "https://help.gamma.app/en/articles/7834324-how-do-credits-work-in-gamma",
+      "title": "Gamma AI credits help",
+      "claim": "Free starts with 400 credits that do not refresh; completed AI edits consume credits.",
+      "accessed_at": "2026-10-28T09:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gamma-plans",
+      "source_type": "довідка постачальника",
+      "source_url": "https://help.gamma.app/en/articles/8077107-how-can-i-upgrade-my-gamma-subscription",
+      "title": "Gamma plan help",
+      "claim": "Free generation is capped at 10 slides in one prompt.",
+      "accessed_at": "2026-10-28T09:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
