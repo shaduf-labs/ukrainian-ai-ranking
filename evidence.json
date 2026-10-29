@@ -1160,6 +1160,36 @@
       "accessed_at": "2026-10-28T09:12:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:canva-ai-presentation-access",
+      "source_type": "official documentation",
+      "source_url": "https://www.canva.com/help/using-magic-presentations/",
+      "title": "Canva AI presentation help",
+      "claim": "Canva AI for Presentations is a premium usage-limited tool; access depends on plan and may vary by language setting.",
+      "accessed_at": "2026-10-29T09:04:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:canva-pptx-export",
+      "source_type": "official documentation",
+      "source_url": "https://www.canva.com/help/download-file-types/",
+      "title": "Canva download formats",
+      "claim": "PPTX applies to presentation designs; Canva warns of font and layout differences, and unsupported animations and embedded video in PowerPoint.",
+      "accessed_at": "2026-10-29T09:04:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:canva-client-handoff-report",
+      "source_type": "first-person community report",
+      "source_url": "https://www.reddit.com/r/canva/comments/1v4b9op/how_do_i_convert_my_canva_slides_to_powerpoint_so/",
+      "title": "Canva client PPTX handoff question",
+      "claim": "One user reports shifted text and flattened graphics in an exported 15-slide client deck; this is anecdotal, not a failure rate.",
+      "accessed_at": "2026-10-29T09:04:15Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-193942e6efadd0f2160f7a1b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-29T09:00:00Z",
+      "completed_at": "2026-10-29T09:07:14Z",
+      "title": "Canva для української презентації: перевірте PPTX",
+      "summary": "Canva документує платну генерацію презентації й експорт PPTX, але доступ залежить від плану та мови інтерфейсу; шрифти, макет і рух можуть змінитися. Український файл не тестували.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/29/canva-ukrainian-pptx-handoff/",
+      "entrypoint": "research/2026/10/29/canva-ukrainian-pptx-handoff/index.html"
+    },
+    {
       "run_id": "report-d7a6eb1fdd1bc293f17e0881",
       "status": "completed",
       "answer_change": "meaningful_change",
