@@ -2,6 +2,36 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:microsoft-powerpoint-faq-limit-2026",
+      "source_type": "official documentation",
+      "source_url": "https://support.microsoft.com/en-us/powerpoint/frequently-asked-questions-about-copilot-in-powerpoint",
+      "title": "Microsoft PowerPoint FAQ",
+      "claim": "Microsoft expects highest Copilot PowerPoint quality in English and officially supports Design Suggestions only for en-US.",
+      "accessed_at": "2026-10-30T09:04:30Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:microsoft-powerpoint-model-selector-2026",
+      "source_type": "official documentation",
+      "source_url": "https://support.microsoft.com/en-us/office/choose-your-model-when-editing-with-copilot-in-powerpoint",
+      "title": "Microsoft PowerPoint model selection",
+      "claim": "Auto, ChatGPT and Claude are Copilot editing-mode choices; a commercial Copilot subscription is required, enterprise Claude needs admin approval and choices can vary or reset.",
+      "accessed_at": "2026-10-30T09:04:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:microsoft-powerpoint-create-oct2026",
+      "source_type": "official documentation",
+      "source_url": "https://support.microsoft.com/en-us/powerpoint/copilot/create-a-new-presentation-with-copilot-in-powerpoint",
+      "title": "Microsoft PowerPoint presentation creation",
+      "claim": "October 2026 instructions document native deck creation, optional model and Brand Kit, Word-source advice and a subscription or organization access gate.",
+      "accessed_at": "2026-10-30T09:04:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:google-full-deck-english-only",
       "source_type": "official documentation",
       "source_url": "https://support.google.com/docs/answer/17111393?hl=en-419",

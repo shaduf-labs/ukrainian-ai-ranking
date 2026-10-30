@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-a65631230d6e3d22b1ec171a",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-30T09:00:00Z",
+      "completed_at": "2026-10-30T09:08:41Z",
+      "title": "Copilot у PowerPoint: створення колоди й вибір моделі",
+      "summary": "Microsoft документує нативне створення PPTX і вибір Auto, ChatGPT або Claude за умов комерційної підписки. Точні версії й якість української колоди невідомі.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/30/copilot-powerpoint-model-choice/",
+      "entrypoint": "research/2026/10/30/copilot-powerpoint-model-choice/index.html"
+    },
+    {
       "run_id": "report-193942e6efadd0f2160f7a1b",
       "status": "completed",
       "answer_change": "meaningful_change",

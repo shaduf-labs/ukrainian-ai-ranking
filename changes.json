@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "copilot-powerpoint-model-choice-2026-10-30",
+      "changed_at": "2026-10-30T09:04:30Z",
+      "summary": "Додано нативне створення презентації в PowerPoint і умови перемикача Auto, ChatGPT та Claude. Назви в меню не є точними версіями; українську якість не вимірювали.",
+      "path": "/p/ukrainian-ai-ranking/rating/business/"
+    },
+    {
       "change_id": "canva-pptx-handoff-2026-10-29",
       "changed_at": "2026-10-29T09:04:15Z",
       "summary": "Додано умовний маршрут Canva для української презентації: платний доступ до ШІ, PPTX лише для презентацій і перевірка шрифтів, руху та повторного відкриття файла. Порівняльної оцінки якості немає.",
