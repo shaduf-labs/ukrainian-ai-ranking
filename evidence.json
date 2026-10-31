@@ -2,6 +2,46 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:teams-recognition-profile",
+      "source_type": "official documentation",
+      "source_url": "https://support.microsoft.com/en-us/teams/calls-devices/create-your-microsoft-teams-recognition-profile",
+      "title": "Teams recognition profile",
+      "claim": "A voice profile requires organization enablement and user opt-in; absent profiles appear as guests.",
+      "accessed_at": "2026-10-31T09:07:18.358Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:teams-transcription-language",
+      "source_type": "official documentation",
+      "source_url": "https://support.microsoft.com/en-gb/teams/meetings/start-stop-and-download-live-transcripts-in-microsoft-teams-meetings",
+      "title": "Teams live transcription",
+      "claim": "Live transcript has speaker names and timestamps; Ukrainian is a supported spoken language, distinct from room identity enrollment.",
+      "accessed_at": "2026-10-31T09:07:18.358Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:teams-intelligent-speaker-issues",
+      "source_type": "official documentation",
+      "source_url": "https://support.microsoft.com/en-us/accessibility/teams/common-issues-using-intelligent-speakers-in-microsoft-teams",
+      "title": "Microsoft Intelligent Speaker common issues",
+      "claim": "Room Pro or BYOD host license, tenant policy, enrollment, same-org restriction, and a 50 enrolled-invitee limit affect in-room attribution.",
+      "accessed_at": "2026-10-31T09:07:18.358Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:teams-room-recognition",
+      "source_type": "official documentation",
+      "source_url": "https://support.microsoft.com/en-us/teams/calls-devices/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription",
+      "title": "Teams Rooms speaker identification",
+      "claim": "Microsoft documents optional voice profiles, Ukrainian enrollment locale, room attribution, self-identification, and correction of misrecognized people.",
+      "accessed_at": "2026-10-31T09:07:18.358Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:microsoft-powerpoint-faq-limit-2026",
       "source_type": "official documentation",
       "source_url": "https://support.microsoft.com/en-us/powerpoint/frequently-asked-questions-about-copilot-in-powerpoint",

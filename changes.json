@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "teams-room-speaker-attribution-2026-10-31",
+      "changed_at": "2026-10-31T09:07:18.358Z",
+      "summary": "Уточнено Teams-кімнату: українська транскрипція не гарантує імені спікера. Додано умови розпізнавання й перевірку виконавців до поширення протоколу.",
+      "path": "/p/ukrainian-ai-ranking/rating/speech/"
+    },
+    {
       "change_id": "copilot-powerpoint-model-choice-2026-10-30",
       "changed_at": "2026-10-30T09:04:30Z",
       "summary": "Додано нативне створення презентації в PowerPoint і умови перемикача Auto, ChatGPT та Claude. Назви в меню не є точними версіями; українську якість не вимірювали.",

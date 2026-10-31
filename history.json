@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-e4f37621541e95927beba32c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-31T09:00:00Z",
+      "completed_at": "2026-10-31T09:07:59.207Z",
+      "title": "Teams-кімната: хто насправді дав доручення",
+      "summary": "Українська транскрипція й розпізнавання людей — різні умови. Для імен у спільній кімнаті потрібні відповідний доступ і профілі; точність не тестували.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/10/31/teams-room-speaker-attribution/",
+      "entrypoint": "research/2026/10/31/teams-room-speaker-attribution/index.html"
+    },
+    {
       "run_id": "report-a65631230d6e3d22b1ec171a",
       "status": "completed",
       "answer_change": "meaningful_change",
