@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-d5d176328fdca3570380d21b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-02T09:00:00Z",
+      "completed_at": "2026-11-02T11:23:00Z",
+      "title": "Локальна українська модель: п’ять задач WMT 2026",
+      "summary": "Zolint очолила обмежений Qwen3.5-2B трек; правопис, граматика та готовий документ — різні перевірки.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/11/02/wmt-local-ukrainian-five-tasks/",
+      "entrypoint": "research/2026/11/02/wmt-local-ukrainian-five-tasks/index.html"
+    },
+    {
       "run_id": "report-e4f37621541e95927beba32c",
       "status": "completed",
       "answer_change": "meaningful_change",
@@ -528,6 +539,17 @@
       "summary": "У травневому авторському CPU-тесті gemma3:4b мала найвищу ручну оцінку на 10 новинах. Це вузький результат, не рейтинг чатів.",
       "report_path": "/p/ukrainian-ai-ranking/research/2026/10/22/local-ukrainian-news-models-on-cpu/",
       "entrypoint": "research/2026/10/22/local-ukrainian-news-models-on-cpu/index.html"
+    },
+    {
+      "run_id": "report-7fb46a08ac610db4c84f5684",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-09T09:00:00Z",
+      "completed_at": "2026-11-09T09:07:16Z",
+      "title": "Excel: формула =COPILOT() припинена, панель лишилася",
+      "summary": "Microsoft припинила попередню формулу 14 вересня 2026; старі книги можуть показувати кешоване значення до перерахунку. Панель Copilot лишилася.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/11/09/excel-copilot-function-retired/",
+      "entrypoint": "research/2026/11/09/excel-copilot-function-retired/index.html"
     }
   ]
 }

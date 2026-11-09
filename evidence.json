@@ -2,6 +2,56 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:microsoft-excel-copilot-function-retired",
+      "source_type": "official product documentation",
+      "source_url": "https://support.microsoft.com/en-us/excel/functions/copilot-function",
+      "title": "Microsoft COPILOT Function",
+      "claim": "The preview Excel =COPILOT() function ended on 14 September 2026; old cached values remain until recalculation returns #NAME?. The Copilot pane remains.",
+      "accessed_at": "2026-11-09T09:06:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:microsoft-excel-copilot-faq",
+      "source_type": "official product documentation",
+      "source_url": "https://support.microsoft.com/en-us/excel/copilot/frequently-asked-questions-about-copilot-in-excel",
+      "title": "Frequently asked questions about Copilot in Excel",
+      "claim": "The pane has edit, plan, and chat modes; Ukrainian is listed for prompts, subject to license and tenant conditions, with a vendor warning about non-English quality.",
+      "accessed_at": "2026-11-09T09:06:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:wmt2026-ukrainian-table9",
+      "source_type": "peer-reviewed shared-task paper",
+      "source_url": "https://aclanthology.org/2026.wmt-main.59.pdf",
+      "title": "WMT 2026 Ukrainian track, tables 9 and 18",
+      "claim": "Zolint earned 19 ranking points and led four of five task scores under a Qwen3.5-2B restriction.",
+      "accessed_at": "2026-11-02T11:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:wmt2026-ukrainian-table18",
+      "source_type": "peer-reviewed shared-task paper",
+      "source_url": "https://aclanthology.org/2026.wmt-main.59.pdf",
+      "title": "WMT 2026 Ukrainian track, tables 9 and 18",
+      "claim": "Zolint corrected 61.15% of spelling and 45.10% of grammar cases in the controlled Ukrainian task sets.",
+      "accessed_at": "2026-11-02T11:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:wmt2026-method",
+      "source_type": "peer-reviewed shared-task paper",
+      "source_url": "https://aclanthology.org/2026.wmt-main.59.pdf",
+      "title": "WMT 2026 Ukrainian track, tables 9 and 18",
+      "claim": "Tested single-error sentences and task metrics do not measure complete document editing or service quality.",
+      "accessed_at": "2026-11-02T11:23:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:teams-recognition-profile",
       "source_type": "official documentation",
       "source_url": "https://support.microsoft.com/en-us/teams/calls-devices/create-your-microsoft-teams-recognition-profile",

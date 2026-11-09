@@ -2,6 +2,18 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "excel-copilot-function-retired-2026-11-09",
+      "changed_at": "2026-11-09T09:06:00Z",
+      "summary": "Формулу =COPILOT() у Excel припинено 14 вересня; панель Copilot лишилася. Додано перевірку старих книг і прямі джерела.",
+      "path": "/p/ukrainian-ai-ranking/rating/spreadsheets/"
+    },
+    {
+      "change_id": "wmt2026-local-ukrainian-five-tasks",
+      "changed_at": "2026-11-02T11:23:00Z",
+      "summary": "Додано результати WMT 2026 для чотирьох українських Qwen3.5-2B-систем: п’ять задач, окремі бали виправлення й межа для реального документа.",
+      "path": "/p/ukrainian-ai-ranking/rating/text/"
+    },
+    {
       "change_id": "teams-room-speaker-attribution-2026-10-31",
       "changed_at": "2026-10-31T09:07:18.358Z",
       "summary": "Уточнено Teams-кімнату: українська транскрипція не гарантує імені спікера. Додано умови розпізнавання й перевірку виконавців до поширення протоколу.",
