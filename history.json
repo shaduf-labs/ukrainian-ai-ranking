@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-fd51691e729d5519366d0ebf",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-10T09:00:00Z",
+      "completed_at": "2026-11-10T09:23:40Z",
+      "title": "Claude для Excel: окрема надбудова й межі п’яти задач",
+      "summary": "П’ять англомовних задач показали можливості й одну зміну вхідного числа; це не перевірка української книги.",
+      "report_path": "/p/ukrainian-ai-ranking/research/2026/11/10/claude-excel-five-cases/",
+      "entrypoint": "research/2026/11/10/claude-excel-five-cases/index.html"
+    },
+    {
       "run_id": "report-d5d176328fdca3570380d21b",
       "status": "completed",
       "answer_change": "meaningful_change",

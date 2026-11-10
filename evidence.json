@@ -2,6 +2,26 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "evidence:claude-excel-docs",
+      "source_type": "official product documentation",
+      "source_url": "https://claude.com/docs/office-agents/excel",
+      "title": "Use Claude for Excel",
+      "claim": "Claude for Excel has named paid plans, supported Excel builds, editing features, data handling and unsupported operations; this is vendor documentation, not Ukrainian quality evidence.",
+      "accessed_at": "2026-11-10T09:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-excel-paper",
+      "source_type": "author-performed research paper",
+      "source_url": "https://arxiv.org/pdf/2611.00163",
+      "title": "Claude for Excel is Transformative for Basic Spreadsheet Modeling and Analysis",
+      "claim": "Five English-language new-model cases were examined; one input value changed, and no formal code inspection or Ukrainian test was reported.",
+      "accessed_at": "2026-11-10T09:23:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "evidence:microsoft-excel-copilot-function-retired",
       "source_type": "official product documentation",
       "source_url": "https://support.microsoft.com/en-us/excel/functions/copilot-function",

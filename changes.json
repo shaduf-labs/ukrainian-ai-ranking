@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "claude-excel-five-cases-2026-11-10",
+      "changed_at": "2026-11-10T09:23:00Z",
+      "summary": "Додано окрему надбудову Claude for Excel: умови доступу, ризик передавання даних і п’ять англомовних задач з однією зміненою вхідною цифрою. Українську книгу не тестували.",
+      "path": "/p/ukrainian-ai-ranking/rating/spreadsheets/"
+    },
+    {
       "change_id": "excel-copilot-function-retired-2026-11-09",
       "changed_at": "2026-11-09T09:06:00Z",
       "summary": "Формулу =COPILOT() у Excel припинено 14 вересня; панель Copilot лишилася. Додано перевірку старих книг і прямі джерела.",
